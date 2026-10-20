@@ -16,15 +16,16 @@ The work is grouped by content. Start with Bitshala's Mastering Bitcoin course.
 
 Click a topic to open its questions. Click a test result to open my answers,
 the review, and my corrections. Introduction Test 1 and six corrections have
-been reviewed. Q2 and Q4 still need revision. Q8 needs verification beyond
-what the assigned chapters cover.
+been reviewed. The Q2 correction is correct after the learner's typo clarification.
+Q4 still needs revision. Q8 needs verification beyond what the assigned chapters cover.
 
 Results use **fully correct / total questions**. Partial, incorrect and
 unanswered counts are reported separately. Scores are personal review results,
 not Bitshala grades. Corrections do not change an original attempt score.
 
 Continue here: [Introduction & how Bitcoin works — Test 1 correction review](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-1.md#correction-review--2026-10-20).
-Review Q2 and Q4 next. Append further corrections under **My corrections**.
+The [latest Q2 review](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-1.md#q2-typo-clarification-review--2026-10-20) records the clarification.
+Review Q4 next. Append further corrections under **My corrections**.
 Keep the submitted versions.
 
 ## How I use this record

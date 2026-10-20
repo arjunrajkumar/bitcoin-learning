@@ -2,7 +2,7 @@
 
 [Questions](questions.md) · [Learning results](../../../README.md)
 
-- Status: Corrections reviewed; Q2 and Q4 need revision; Q8 needs verification
+- Status: Corrections reviewed; Q2 typo clarified; Q4 needs revision; Q8 needs verification
 - Started: 2026-10-20
 - Submitted and reviewed: 2026-10-20
 - Corrections submitted and reviewed: 2026-10-20
@@ -119,6 +119,13 @@ They were dependent on a central organisation to issue new money, and also to va
 ### Q2 correction
 
 There are some advantages and disadvantages with reversibility. Current electronic payment methods like credit cards, net banking etc. are reversible. So someone could buy Bitcoin from you via a credit card, and then reverse the credit card payment after they received the Bitcoin. So, because bitcoins are reversible this risk is there. To solve this risk, lots of exchanges require KYC, and do credit checks. Also if something is reversible, a fraudulent seller would not benefit, as the buyer can reverse it. Bitcoin has these drawbacks. But Bitcoin would not be better if transactions are reversible because then you need someone to decide which transaction, the conditions etc. for reversibility etc. Also, the public blockchain would require additional changes from what it is.
+
+#### Q2 typo clarification — 2026-10-20
+
+The learner confirmed that "reversible" was a typo for "irreversible".
+The full resubmitted answer follows. This is part of the same Test 1 correction.
+
+There are some advantages and disadvantages with reversibility. Current electronic payment methods like credit cards, net banking etc. are reversible. So someone could buy Bitcoin from you via a credit card, and then reverse the credit card payment after they received the Bitcoin. So, because bitcoins are irreversible this risk is there. To solve this risk, lots of exchanges require KYC, and do credit checks. Also if something is reversible, a fraudulent seller would not benefit, as the buyer can reverse it. Bitcoin has these drawbacks. But Bitcoin would not be better if transactions are reversible because then you need someone to decide which transaction, the conditions etc. for reversibility etc. Also, the public blockchain would require additional changes from what it is.
 
 ### Q3 correction
 
@@ -248,6 +255,8 @@ Read again: [Chapter 2 — Transaction Inputs and Outputs](https://github.com/bi
 This review covers the six submitted corrections above.
 The original Test 1 result remains **2/8 correct; 6 partial; 0 incorrect; 0 unanswered**.
 These corrections are not a new memory test.
+The Q2 review below predates the learner's typo clarification.
+See the [latest Q2 review](#q2-typo-clarification-review--2026-10-20).
 
 #### Q1 correction feedback
 
@@ -303,3 +312,12 @@ not compare account models or support your reasons for Bitcoin's choice.
 
 Read again: [Chapter 2 — Transaction Chains](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#transaction-chains);
 [Chapter 2 — Getting the Right Inputs](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#getting-the-right-inputs).
+
+### Q2 typo clarification review — 2026-10-20
+
+Outcome: Correct
+
+Why: Your typo clarification resolves the issue in the earlier review.
+Your answer covers benefits, drawbacks, and your reasons for opposing reversibility.
+
+Read again: [Chapter 1 — Getting Your First Bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#getting-your-first-bitcoin).
