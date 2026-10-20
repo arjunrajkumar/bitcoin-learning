@@ -39,3 +39,62 @@ Three attempts are a starting point; unresolved gaps can need more practice.
 Save source code, diagrams and command results in the topic's `experiments/`
 folder when there is work to keep. Commit and push local work before changing
 devices. This repository is public.
+
+## Use this project in Codex
+
+Add the local `bitcoin-learning` repository folder as a Codex project. Make it
+the primary folder. Start learning chats inside that project.
+
+The project instructions are in [AGENTS.md](AGENTS.md). The review and scoring
+rules are in [learning-method.md](learning-method.md). Codex uses the primary
+folder to find repository instructions. A synced conversation does not transfer
+the local repository to a second laptop.
+[Official OpenAI project guidance](https://learn.chatgpt.com/docs/projects#use-local-projects-for-folders-and-codebases)
+explains these boundaries.
+
+Use a separate local checkout on each laptop. Push completed work before
+switching laptops. On the next laptop, inspect local changes and fetch the
+latest version before continuing. Preserve and resolve any conflicts.
+
+### Copy into Codex on another laptop
+
+```text
+Set up my Bitcoin learning workspace on this laptop.
+
+Use my existing public repository:
+https://github.com/arjunrajkumar/bitcoin-learning
+
+Reuse an existing checkout of this repository if present. Otherwise clone it
+into a suitable local folder. Do not create a new GitHub repository or overwrite
+an existing folder. Add the checkout as a local Codex project named
+bitcoin-learning if the app tools support it. Otherwise give me the exact folder
+to add manually. The repository folder must be the project's primary folder.
+
+Read AGENTS.md, README.md and learning-method.md before teaching or editing.
+Follow those files and use the saved topic attempts to find my current position.
+
+I know Ruby and Rails well. I am learning Bitcoin fundamentals through Bitshala's
+Mastering Bitcoin course. My goal is to understand Bitcoin deeply and build with
+it. Organise learning by content. Use three attempts per topic: a first attempt
+after reading, then two later attempts from memory after gaps. No fixed weekly
+deadlines are needed.
+
+I write the answers, predictions, code attempts and corrected explanations.
+Preserve my first answers verbatim. Review each question with clear reasons
+and reliable source links. Give useful hints, explain gaps, and occasionally
+test a fresh example. Do not fill in my answers or invent progress.
+
+Keep my answers, your review and my corrections in the relevant test file.
+Update the README with fully correct / total only after review is complete.
+Show partial answers separately. Corrections do not change the original score.
+Follow the full scoring rules in learning-method.md.
+
+Check Git status and remote changes before editing. Preserve local work.
+Never force-push or discard answers. When I ask you to save learning work,
+review the scoped diff, commit and push it to this repository. Tell me whether
+the push succeeded. Keep secrets and private account data out of this public repo.
+
+Use short, clear English. Handle routine repository setup without assigning me
+Bitcoin exercises. Finish setup by showing my current topic and next action.
+Do not start a quiz until I ask.
+```
