@@ -5,7 +5,7 @@ The work is grouped by content. Start with Bitshala's Mastering Bitcoin course.
 
 | Learning resource and questions | Test 1 result | Test 2 result — after a gap | Test 3 result — after another gap |
 | --- | --- | --- | --- |
-| [Mastering Bitcoin — Introduction & how Bitcoin works](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/questions.md) | [Not started](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-1.md) | [Not started](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-2.md) | [Not started](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-3.md) |
+| [Mastering Bitcoin — Introduction & how Bitcoin works](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/questions.md) | [2/8 correct; 6 partial; 0 incorrect; 0 unanswered](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-1.md) | [Not started](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-2.md) | [Not started](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-3.md) |
 | [Mastering Bitcoin — Bitcoin Core, keys & addresses](courses/bitshala-mastering-bitcoin/bitcoin-core-keys-and-addresses/questions.md) | [Not started](courses/bitshala-mastering-bitcoin/bitcoin-core-keys-and-addresses/test-1.md) | [Not started](courses/bitshala-mastering-bitcoin/bitcoin-core-keys-and-addresses/test-2.md) | [Not started](courses/bitshala-mastering-bitcoin/bitcoin-core-keys-and-addresses/test-3.md) |
 | [Mastering Bitcoin — Wallet recovery & transactions](courses/bitshala-mastering-bitcoin/wallet-recovery-and-transactions/questions.md) | [Not started](courses/bitshala-mastering-bitcoin/wallet-recovery-and-transactions/test-1.md) | [Not started](courses/bitshala-mastering-bitcoin/wallet-recovery-and-transactions/test-2.md) | [Not started](courses/bitshala-mastering-bitcoin/wallet-recovery-and-transactions/test-3.md) |
 | [Mastering Bitcoin — Scripts & digital signatures](courses/bitshala-mastering-bitcoin/scripts-and-digital-signatures/questions.md) | [Not started](courses/bitshala-mastering-bitcoin/scripts-and-digital-signatures/test-1.md) | [Not started](courses/bitshala-mastering-bitcoin/scripts-and-digital-signatures/test-2.md) | [Not started](courses/bitshala-mastering-bitcoin/scripts-and-digital-signatures/test-3.md) |
@@ -15,13 +15,15 @@ The work is grouped by content. Start with Bitshala's Mastering Bitcoin course.
 | [Mastering Bitcoin — Sparrow wallet practice](courses/bitshala-mastering-bitcoin/sparrow-wallet-practice/questions.md) | [Not started](courses/bitshala-mastering-bitcoin/sparrow-wallet-practice/test-1.md) | [Not started](courses/bitshala-mastering-bitcoin/sparrow-wallet-practice/test-2.md) | [Not started](courses/bitshala-mastering-bitcoin/sparrow-wallet-practice/test-3.md) |
 
 Click a topic to open its questions. Click a test result to open my answers,
-the review, and my corrections. No test has been completed yet.
+the review, and my corrections. Introduction Test 1 has been reviewed.
+My corrections are the next step.
 
-Results will use **fully correct / total questions**. Partial answers will be
-reported separately, for example: `6/8 correct; 2 partial`. This is an example,
-not a recorded result. Scores are personal review results, not Bitshala grades.
+Results use **fully correct / total questions**. Partial, incorrect and
+unanswered counts are reported separately. Scores are personal review results,
+not Bitshala grades. Corrections do not change an original attempt score.
 
-Start here: [Introduction & how Bitcoin works — Test 1](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-1.md).
+Continue here: [Introduction & how Bitcoin works — Test 1 corrections](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-1.md#next-action).
+Start with Q4 and Q8. Keep the original answers and write corrections below the reviews.
 
 ## How I use this record
 
