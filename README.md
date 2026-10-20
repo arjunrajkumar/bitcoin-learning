@@ -36,7 +36,8 @@ Start with Q4 and Q8. Write corrections in the separate **My corrections** secti
 
 Each test keeps all answers together. Assistant feedback is at the end.
 Each review gives only **Outcome**, **Why**, and **Read again**.
-Reading links point to the closest matching passage in the assigned material.
+Reading links point to the main matching section in the assigned material.
+Book links use the rendered `develop` chapter and its section heading.
 Factual corrections stay separate from the original answers.
 
 There are no fixed weekly deadlines. Tests 2 and 3 are later memory attempts.
@@ -91,7 +92,9 @@ Present all topic questions in one batch. Include full prompts and all subparts.
 Wait for my full submission before giving feedback. Keep my answers in full.
 Correct only clear spelling and typing errors. Keep my wording and meaning.
 For each question, give only Outcome, Why, and Read again.
-Link to the exact paragraph or smallest matching section in the assigned reading.
+Link to the main matching section in the assigned reading.
+For Mastering Bitcoin, use rendered develop-branch links with section headings.
+Do not use commit hashes, plain source view or line numbers in reading links.
 Use no other reading sources. State when those materials do not cover a point.
 Do not explain the correct answer unless I ask.
 Do not fill in my answers or invent progress.

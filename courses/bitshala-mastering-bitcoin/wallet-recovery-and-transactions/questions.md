@@ -11,8 +11,9 @@ our progress is organised by content. There are **8 numbered questions**.
 - [Chapter 5: Wallet Recovery](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch05_wallets.adoc)
 - [Chapter 6: Transactions](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch06_transactions.adoc)
 
-These are the reading links listed by Bitshala. The book's develop branch can
-change; use a fixed source revision in reviews where version differences matter.
+These are the reading links listed by Bitshala. In reviews, link to the main
+matching section of the rendered develop chapter. Preserve completed records
+if the source text changes.
 
 ## Questions
 

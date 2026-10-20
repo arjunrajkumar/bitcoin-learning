@@ -11,8 +11,9 @@ our progress is organised by content. There are **8 numbered questions**.
 - [Chapter 13: Bitcoin Security](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch13_security.adoc)
 - [Chapter 14: Second-Layer Applications](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch14_applications.adoc)
 
-These are the reading links listed by Bitshala. The book's develop branch can
-change; use a fixed source revision in reviews where version differences matter.
+These are the reading links listed by Bitshala. In reviews, link to the main
+matching section of the rendered develop chapter. Preserve completed records
+if the source text changes.
 
 ## Questions
 

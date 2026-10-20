@@ -11,8 +11,9 @@ our progress is organised by content. There are **8 numbered questions**.
 - [Chapter 11: The Blockchain](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch11_blockchain.adoc)
 - [Chapter 12: Mining and Consensus](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch12_mining.adoc)
 
-These are the reading links listed by Bitshala. The book's develop branch can
-change; use a fixed source revision in reviews where version differences matter.
+These are the reading links listed by Bitshala. In reviews, link to the main
+matching section of the rendered develop chapter. Preserve completed records
+if the source text changes.
 
 ## Questions
 

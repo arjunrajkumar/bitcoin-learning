@@ -93,12 +93,16 @@ Unanswered, or Needs verification. Record reasons and supporting sources.
 Distinguish factual claims, trade-offs, consensus rules and version-dependent
 policy. Flag false premises in source questions instead of teaching them as fact.
 Use only the reading materials assigned to the current topic or source week.
-For each feedback entry, link directly to the paragraph or smallest section
-in that assigned reading that most closely matches the question and reason.
+For each feedback entry, link to the main section in the assigned reading
+that most closely matches the question and reason.
 Place the link in **Read again**. Name the chapter and section in the link text.
-Use a fixed source revision and a narrow line range when available.
-For GitHub prose, use `?plain=1#Lx-Ly` to show the selected source lines.
-Do not substitute a link to a whole chapter when a precise link is available.
+For Mastering Bitcoin, use the rendered chapter on the `develop` branch and
+its section heading anchor. For example:
+`https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#history-of-bitcoin`.
+Verify that the heading anchor exists. Use the nearest main section when a
+paragraph or sidebar has no heading anchor. Avoid duplicate links to one section.
+Do not use commit hashes, `?plain=1`, source line numbers or paragraph text
+fragments in reading links. Preserve completed records if the source changes.
 Do not add other chapters, the white paper, BIPs, documentation or source code
 unless they are themselves assigned reading for this topic.
 If the reading does not cover a point, say so briefly in **Why**.
@@ -131,7 +135,7 @@ and pushing it to this repository. Follow any request to keep changes local.
 
 Before publishing, check that all answers are present and only typing errors
 were edited. Check the feedback format, order and score counts.
-Check that each reading link targets the relevant assigned passage.
+Check that each reading link opens the relevant assigned section in rendered view.
 Inspect Git status.
 Use explicit file paths when staging. Review the scoped diff before committing.
 Commit the learning changes and push to origin on the intended branch.

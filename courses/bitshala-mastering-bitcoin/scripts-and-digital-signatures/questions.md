@@ -11,8 +11,9 @@ our progress is organised by content. There are **8 numbered questions**.
 - [Chapter 7: Authorization and Authentication](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch07_authorization-authentication.adoc)
 - [Chapter 8: Digital Signatures](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch08_signatures.adoc)
 
-These are the reading links listed by Bitshala. The book's develop branch can
-change; use a fixed source revision in reviews where version differences matter.
+These are the reading links listed by Bitshala. In reviews, link to the main
+matching section of the rendered develop chapter. Preserve completed records
+if the source text changes.
 
 ## Questions
 

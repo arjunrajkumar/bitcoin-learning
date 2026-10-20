@@ -148,7 +148,7 @@ Outcome: Not reviewed
 
 Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
 
-Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
+Read again: <!-- Link to the main matching section in the assigned reading only. For Mastering Bitcoin, use the rendered develop chapter with a verified heading anchor. -->
 
 ### Q2 feedback
 
@@ -156,7 +156,7 @@ Outcome: Not reviewed
 
 Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
 
-Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
+Read again: <!-- Link to the main matching section in the assigned reading only. For Mastering Bitcoin, use the rendered develop chapter with a verified heading anchor. -->
 
 ### Q3 feedback
 
@@ -164,7 +164,7 @@ Outcome: Not reviewed
 
 Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
 
-Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
+Read again: <!-- Link to the main matching section in the assigned reading only. For Mastering Bitcoin, use the rendered develop chapter with a verified heading anchor. -->
 
 ### Q4 feedback
 
@@ -172,7 +172,7 @@ Outcome: Not reviewed
 
 Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
 
-Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
+Read again: <!-- Link to the main matching section in the assigned reading only. For Mastering Bitcoin, use the rendered develop chapter with a verified heading anchor. -->
 
 ### Q5 feedback
 
@@ -180,7 +180,7 @@ Outcome: Not reviewed
 
 Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
 
-Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
+Read again: <!-- Link to the main matching section in the assigned reading only. For Mastering Bitcoin, use the rendered develop chapter with a verified heading anchor. -->
 
 ### Q6 feedback
 
@@ -188,7 +188,7 @@ Outcome: Not reviewed
 
 Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
 
-Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
+Read again: <!-- Link to the main matching section in the assigned reading only. For Mastering Bitcoin, use the rendered develop chapter with a verified heading anchor. -->
 
 ### Q7 feedback
 
@@ -196,7 +196,7 @@ Outcome: Not reviewed
 
 Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
 
-Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
+Read again: <!-- Link to the main matching section in the assigned reading only. For Mastering Bitcoin, use the rendered develop chapter with a verified heading anchor. -->
 
 ### Q8 feedback
 
@@ -204,7 +204,7 @@ Outcome: Not reviewed
 
 Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
 
-Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
+Read again: <!-- Link to the main matching section in the assigned reading only. For Mastering Bitcoin, use the rendered develop chapter with a verified heading anchor. -->
 
 ### Q9 feedback
 
@@ -212,7 +212,7 @@ Outcome: Not reviewed
 
 Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
 
-Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
+Read again: <!-- Link to the main matching section in the assigned reading only. For Mastering Bitcoin, use the rendered develop chapter with a verified heading anchor. -->
 
 ### Q10 feedback
 
@@ -220,4 +220,4 @@ Outcome: Not reviewed
 
 Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
 
-Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
+Read again: <!-- Link to the main matching section in the assigned reading only. For Mastering Bitcoin, use the rendered develop chapter with a verified heading anchor. -->

@@ -158,9 +158,8 @@ Outcome: Partial
 Why: You identify central control, but do not explain how Bitcoin solved the problems.
 The double-spending problem is also missing.
 
-Read again: [Chapter 1 — Digital Currencies Before Bitcoin: the three problems](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch01_intro.adoc?plain=1#L84-L88);
-[Chapter 1 — Digital Currencies Before Bitcoin: central control](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch01_intro.adoc?plain=1#L94);
-[Chapter 1 — History of Bitcoin: first paragraph](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch01_intro.adoc?plain=1#L100-L115).
+Read again: [Chapter 1 — Introduction](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#introduction);
+[Chapter 1 — History of Bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#history-of-bitcoin).
 
 ### Q2 feedback
 
@@ -170,9 +169,9 @@ Why: You discuss drawbacks of reversibility, but omit its potential benefits.
 Your confirmation requirement is too absolute. The reading describes the seller
 risk and warns about mistakes; it does not give a full list of buyer protections.
 
-Read again: [Chapter 1 — Getting Your First Bitcoin: payment reversal risk](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch01_intro.adoc?plain=1#L403);
-[Chapter 1 — Sending and Receiving Bitcoin: checking for mistakes](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch01_intro.adoc?plain=1#L480-L491);
-[Chapter 2 — Bitcoin Mining: confirmation convention](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch02_overview.adoc?plain=1#L580-L589).
+Read again: [Chapter 1 — Getting Your First Bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#getting-your-first-bitcoin);
+[Chapter 1 — Sending and Receiving Bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#sending-and-receiving-bitcoin);
+[Chapter 2 — Bitcoin Mining](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#bitcoin-mining).
 
 ### Q3 feedback
 
@@ -181,7 +180,7 @@ Outcome: Partial
 Why: You describe falling issuance, but do not state how much it falls.
 You state the supply cap without showing how the schedule gives that total.
 
-Read again: [Chapter 1 — Introduction: issuance schedule and supply cap](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch01_intro.adoc?plain=1#L52-L68).
+Read again: [Chapter 1 — Introduction](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#introduction).
 
 ### Q4 feedback
 
@@ -191,8 +190,8 @@ Why: You identify public transaction data and identity links, but do not explain
 why privacy matters. The assigned chapters do not define fungibility, so the
 links below support only the privacy part of this question.
 
-Read again: [Chapter 1 — Bitcoin Addresses: privacy tip](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch01_intro.adoc?plain=1#L365-L377);
-[Chapter 1 — Getting Your First Bitcoin: identity and transaction tracking](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch01_intro.adoc?plain=1#L415-L428).
+Read again: [Chapter 1 — Bitcoin Addresses](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#bitcoin-addresses);
+[Chapter 1 — Getting Your First Bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#getting-your-first-bitcoin).
 
 ### Q5 feedback
 
@@ -201,8 +200,8 @@ Outcome: Correct
 Why: You give the fee calculation, identify who receives it, and describe its
 general effect on confirmation at the level used in Chapter 1.
 
-Read again: [Chapter 2 — Transaction Inputs and Outputs: fee paragraph](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch02_overview.adoc?plain=1#L161-L171);
-[Chapter 1 — Sending and Receiving Bitcoin: fee paragraph](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch01_intro.adoc?plain=1#L468-L474).
+Read again: [Chapter 2 — Transaction Inputs and Outputs](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#transaction-inputs-and-outputs);
+[Chapter 1 — Sending and Receiving Bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#sending-and-receiving-bitcoin).
 
 ### Q6 feedback
 
@@ -211,9 +210,9 @@ Outcome: Correct
 Why: You cover the purpose of change, when it is needed, and the effect of omitting
 it. Your stated condition also covers when no change is needed.
 
-Read again: [Chapter 2 — Making Change: first paragraph](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch02_overview.adoc?plain=1#L244-L253);
-[Chapter 2 — Coin Selection: when change is needed](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch02_overview.adoc?plain=1#L281-L290);
-[Chapter 2 — Transaction Inputs and Outputs: fee paragraph](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch02_overview.adoc?plain=1#L161-L171).
+Read again: [Chapter 2 — Making Change](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#making-change);
+[Chapter 2 — Coin Selection](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#coin-selection);
+[Chapter 2 — Transaction Inputs and Outputs](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#transaction-inputs-and-outputs).
 
 ### Q7 feedback
 
@@ -222,9 +221,8 @@ Outcome: Partial
 Why: You count confirmations correctly. You do not explain the risk of accepting
 an unconfirmed payment. Your reason only repeats that it is unconfirmed.
 
-Read again: [Chapter 1 — Confirmations: unconfirmed and confirmed payments](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch01_intro.adoc?plain=1#L502);
-[Chapter 2 — Bitcoin Mining: first confirmation and competing payments](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch02_overview.adoc?plain=1#L535-L546);
-[Chapter 2 — Bitcoin Mining: later confirmations](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch02_overview.adoc?plain=1#L567-L578).
+Read again: [Chapter 1 — Sending and Receiving Bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#sending-and-receiving-bitcoin);
+[Chapter 2 — Bitcoin Mining](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#bitcoin-mining).
 
 ### Q8 feedback
 
@@ -235,6 +233,6 @@ how transactions link together. The account-model comparison is missing.
 The assigned chapters describe UTXOs, but do not cover that comparison or
 establish the historical reasons for choosing the model.
 
-Read again: [Chapter 2 — Transaction Inputs and Outputs: signatures](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch02_overview.adoc?plain=1#L173-L178);
-[Chapter 2 — Transaction Chains: references to earlier outputs](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch02_overview.adoc?plain=1#L191-L198);
-[Chapter 2 — Getting the Right Inputs: UTXOs](https://github.com/bitcoinbook/bitcoinbook/blob/275c4eb8eab8800c6adc39f8def8e8f8fa356a57/ch02_overview.adoc?plain=1#L337-L348).
+Read again: [Chapter 2 — Transaction Inputs and Outputs](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#transaction-inputs-and-outputs);
+[Chapter 2 — Transaction Chains](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#transaction-chains);
+[Chapter 2 — Getting the Right Inputs](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#getting-the-right-inputs).

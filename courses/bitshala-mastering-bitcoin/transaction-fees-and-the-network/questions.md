@@ -11,8 +11,9 @@ our progress is organised by content. There are **8 numbered questions**.
 - [Chapter 9: Transaction Fees](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch09_fees.adoc)
 - [Chapter 10: The Bitcoin Network](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch10_network.adoc)
 
-These are the reading links listed by Bitshala. The book's develop branch can
-change; use a fixed source revision in reviews where version differences matter.
+These are the reading links listed by Bitshala. In reviews, link to the main
+matching section of the rendered develop chapter. Preserve completed records
+if the source text changes.
 
 ## Questions
 
