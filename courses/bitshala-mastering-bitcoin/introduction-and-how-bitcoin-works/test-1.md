@@ -2,7 +2,7 @@
 
 [Questions](questions.md) · [Learning results](../../../README.md)
 
-- Status: Corrections reviewed; Q2 typo clarified; Q4 needs revision; Q8 needs verification
+- Status: Corrections reviewed; Q4 privacy reason added, address claim needs revision; Q8 needs verification
 - Started: 2026-10-20
 - Submitted and reviewed: 2026-10-20
 - Corrections submitted and reviewed: 2026-10-20
@@ -135,6 +135,13 @@ The Bitcoin issuance rate is the rate of bitcoins given to a miner when their ca
 
 Bitcoin is not private in the sense that every transaction is publicly viewable by one who looks into the blockchain. Anyone can view the amount of bitcoins that a transaction transferred to another bitcoin address. These days most bitcoin exchanges require KYC, and therefore it is possible to identify the person associated to an address. Hence, if a user withdraws bitcoin via an exchange to convert bitcoin into currency like a dollar, their identity will be exposed to that company, and from there, one can know the amount of bitcoins associated with that specific address. Bitcoin is not fungible because one bitcoin is not equivalent to any other bitcoin. For e.g. someone who has access to a stolen bitcoin address, could be barred from spending that specific bitcoin on exchanges.
 
+#### Q4 privacy addition — 2026-10-20
+
+The learner added the following explanation. Only spelling and punctuation
+errors have been corrected.
+
+Privacy matters because you don't want the whole world to know how much money you have, or see all the transactions you have made so far. Bitcoin, although not private, encourages people to use different different bitcoin addresses to receive payments. This way someone who is sending you money, cannot know how much money you have in total, because you are receiving it in a new address.
+
 ### Q5 correction
 
 <!-- Learner: explain in your own words. Say what changed and why. This is not a new test attempt. -->
@@ -257,6 +264,8 @@ The original Test 1 result remains **2/8 correct; 6 partial; 0 incorrect; 0 unan
 These corrections are not a new memory test.
 The Q2 review below predates the learner's typo clarification.
 See the [latest Q2 review](#q2-typo-clarification-review--2026-10-20).
+The Q4 review below predates the learner's privacy addition.
+See the [latest Q4 review](#q4-privacy-addition-review--2026-10-20).
 
 #### Q1 correction feedback
 
@@ -321,3 +330,14 @@ Why: Your typo clarification resolves the issue in the earlier review.
 Your answer covers benefits, drawbacks, and your reasons for opposing reversibility.
 
 Read again: [Chapter 1 — Getting Your First Bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#getting-your-first-bitcoin).
+
+### Q4 privacy addition review — 2026-10-20
+
+Outcome: Partial
+
+Why: You now explain why privacy matters. Your claim that a new address means
+the sender "cannot know" your total funds is too absolute. The assigned chapters
+still do not establish the question's claim about fungibility.
+
+Read again: [Chapter 1 — Bitcoin Addresses](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#bitcoin-addresses);
+[Chapter 1 — Getting Your First Bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#getting-your-first-bitcoin).
