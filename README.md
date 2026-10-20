@@ -15,15 +15,17 @@ The work is grouped by content. Start with Bitshala's Mastering Bitcoin course.
 | [Mastering Bitcoin — Sparrow wallet practice](courses/bitshala-mastering-bitcoin/sparrow-wallet-practice/questions.md) | [Not started](courses/bitshala-mastering-bitcoin/sparrow-wallet-practice/test-1.md) | [Not started](courses/bitshala-mastering-bitcoin/sparrow-wallet-practice/test-2.md) | [Not started](courses/bitshala-mastering-bitcoin/sparrow-wallet-practice/test-3.md) |
 
 Click a topic to open its questions. Click a test result to open my answers,
-the review, and my corrections. Introduction Test 1 has been reviewed.
-My corrections are the next step.
+the review, and my corrections. Introduction Test 1 and six corrections have
+been reviewed. Q2 and Q4 still need revision. Q8 needs verification beyond
+what the assigned chapters cover.
 
 Results use **fully correct / total questions**. Partial, incorrect and
 unanswered counts are reported separately. Scores are personal review results,
 not Bitshala grades. Corrections do not change an original attempt score.
 
-Continue here: [Introduction & how Bitcoin works — Test 1 corrections](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-1.md#my-corrections).
-Start with Q4 and Q8. Write corrections in the separate **My corrections** section.
+Continue here: [Introduction & how Bitcoin works — Test 1 correction review](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-1.md#correction-review--2026-10-20).
+Review Q2 and Q4 next. Append further corrections under **My corrections**.
+Keep the submitted versions.
 
 ## How I use this record
 
@@ -46,7 +48,7 @@ Three attempts are a starting point; unresolved gaps can need more practice.
 
 Save source code, diagrams and command results in the topic's `experiments/`
 folder when there is work to keep. Commit and push local work before changing
-devices. This repository is public.
+devices. This repository is private.
 
 ## Use this project in Codex
 
@@ -69,7 +71,7 @@ latest version before continuing. Preserve and resolve any conflicts.
 ```text
 Set up my Bitcoin learning workspace on this laptop.
 
-Use my existing public repository:
+Use my existing private repository:
 https://github.com/arjunrajkumar/bitcoin-learning
 
 Reuse an existing checkout of this repository if present. Otherwise clone it

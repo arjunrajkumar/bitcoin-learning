@@ -121,7 +121,7 @@ Keep fresh application questions separate from the repeated-question score.
 
 ## Files and publishing
 
-This is a public repository. Keep private keys, wallet recovery phrases,
+This is a private repository. Keep private keys, wallet recovery phrases,
 credentials and private account data out of it. Link to reading material.
 The introductory questions were supplied by the user. Later topics contain
 brief indexes and links to full Bitshala prompts.

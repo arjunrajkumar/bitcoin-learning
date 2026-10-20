@@ -2,9 +2,10 @@
 
 [Questions](questions.md) · [Learning results](../../../README.md)
 
-- Status: Reviewed; learner corrections pending
+- Status: Corrections reviewed; Q2 and Q4 need revision; Q8 needs verification
 - Started: 2026-10-20
 - Submitted and reviewed: 2026-10-20
+- Corrections submitted and reviewed: 2026-10-20
 - Confidence: Medium/high for the full submission, as reported.
 - Help used while answering: None, as reported.
 - Gap since the previous attempt: Not applicable
@@ -106,21 +107,26 @@ Transactions are a chain of digital signatures, because only someone who can sig
 
 ## My corrections
 
+Submitted on 2026-10-20 for Q1, Q2, Q3, Q4, Q7 and Q8.
+Only clear spelling, typing, punctuation and spacing errors have been corrected.
+The learner did not report confidence or help used for these corrections.
+These corrections belong to Test 1. They do not change its original score.
+
 ### Q1 correction
 
-<!-- Learner: explain in your own words. Say what changed and why. This is not a new test attempt. -->
+They were dependent on a central organisation to issue new money, and also to validate transactions between people. There was no distributed system, and hence any government or organisation could kill the digital currency by attacking that central source. Also, double spending could only be stopped before Bitcoin with a central authority verifying the payments. Bitcoin solves this with a combination of a public blockchain (list all past transactions), peer to peer network of nodes (decentralised, no single authority) that verifies every transaction according to set of rules, and a proof-of-work algorithm that solves double spending via a method of reaching a global decentralised consensus.
 
 ### Q2 correction
 
-<!-- Learner: explain in your own words. Say what changed and why. This is not a new test attempt. -->
+There are some advantages and disadvantages with reversibility. Current electronic payment methods like credit cards, net banking etc. are reversible. So someone could buy Bitcoin from you via a credit card, and then reverse the credit card payment after they received the Bitcoin. So, because bitcoins are reversible this risk is there. To solve this risk, lots of exchanges require KYC, and do credit checks. Also if something is reversible, a fraudulent seller would not benefit, as the buyer can reverse it. Bitcoin has these drawbacks. But Bitcoin would not be better if transactions are reversible because then you need someone to decide which transaction, the conditions etc. for reversibility etc. Also, the public blockchain would require additional changes from what it is.
 
 ### Q3 correction
 
-<!-- Learner: explain in your own words. Say what changed and why. This is not a new test attempt. -->
+The Bitcoin issuance rate is the rate of bitcoins given to a miner when their candidate block is included to the blockchain, after they complete the proof of work. Initially it started with 50 bitcoins per new block that was mined, and this reduces every 4 years by half, until it becomes 0. A block is mined approximately around every 10 minutes, which makes it roughly **210,000 blocks every 4 years**. All this would work out to around 21 million bitcoin in total: 210000 \* (50 + 25 + 12.5 ... ) \~= 21 million
 
 ### Q4 correction
 
-<!-- Learner: explain in your own words. Say what changed and why. This is not a new test attempt. -->
+Bitcoin is not private in the sense that every transaction is publicly viewable by one who looks into the blockchain. Anyone can view the amount of bitcoins that a transaction transferred to another bitcoin address. These days most bitcoin exchanges require KYC, and therefore it is possible to identify the person associated to an address. Hence, if a user withdraws bitcoin via an exchange to convert bitcoin into currency like a dollar, their identity will be exposed to that company, and from there, one can know the amount of bitcoins associated with that specific address. Bitcoin is not fungible because one bitcoin is not equivalent to any other bitcoin. For e.g. someone who has access to a stolen bitcoin address, could be barred from spending that specific bitcoin on exchanges.
 
 ### Q5 correction
 
@@ -132,11 +138,11 @@ Transactions are a chain of digital signatures, because only someone who can sig
 
 ### Q7 correction
 
-<!-- Learner: explain in your own words. Say what changed and why. This is not a new test attempt. -->
+The first confirmation is when a miner includes the transaction in their candidate block, and after completion of proof-of-work, includes their candidate block into the blockchain. As more and more blocks are confirmed above it, the confirmations increase. Usually, 6 confirmations are acceptable. It is better to not accept unconfirmed transactions because the transaction has not yet been included into the blockchain which means a fraudulent person could double spend - or make another transaction with that same bitcoin to another address, and if that is included first in a valid blockchain, it has the higher likelihood of being considered as true as more and more blocks are built on it.
 
 ### Q8 correction
 
-<!-- Learner: explain in your own words. Say what changed and why. This is not a new test attempt. -->
+Transactions are a chain of digital signatures, because each transaction's input is made of an output from an earlier transaction. So, it is a chain of transactions in that sense. UTXO stands for unspent transaction outputs. It's basically all the outputs from confirmed transactions that have not yet been spent. Bitcoin chose UTXO model because with the UTXO model one only need to sign a digital signature associated to that transaction to spend it. There is no need to have an account model - and then have to store all the transactions that belong to that account etc. Here there is no identity required.
 
 ## Extra practice
 
@@ -235,4 +241,65 @@ establish the historical reasons for choosing the model.
 
 Read again: [Chapter 2 — Transaction Inputs and Outputs](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#transaction-inputs-and-outputs);
 [Chapter 2 — Transaction Chains](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#transaction-chains);
+[Chapter 2 — Getting the Right Inputs](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#getting-the-right-inputs).
+
+### Correction review — 2026-10-20
+
+This review covers the six submitted corrections above.
+The original Test 1 result remains **2/8 correct; 6 partial; 0 incorrect; 0 unanswered**.
+These corrections are not a new memory test.
+
+#### Q1 correction feedback
+
+Outcome: Correct
+
+Why: You now explain central control, double spending, and how Bitcoin addresses them.
+
+Read again: [Chapter 1 — Introduction](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#introduction);
+[Chapter 1 — History of Bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#history-of-bitcoin).
+
+#### Q2 correction feedback
+
+Outcome: Partial
+
+Why: You now discuss benefits and drawbacks. Your claim that "bitcoins are reversible"
+conflicts with the assigned reading.
+
+Read again: [Chapter 1 — Getting Your First Bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#getting-your-first-bitcoin).
+
+#### Q3 correction feedback
+
+Outcome: Correct
+
+Why: You now state the halving rate and show how the supply total follows.
+
+Read again: [Chapter 1 — Introduction](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#introduction).
+
+#### Q4 correction feedback
+
+Outcome: Partial
+
+Why: You still omit why privacy matters. Chapters 1 and 2 do not establish the
+question's claim about fungibility or your example.
+
+Read again: [Chapter 1 — Bitcoin Addresses](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#bitcoin-addresses);
+[Chapter 1 — Getting Your First Bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01_intro.adoc#getting-your-first-bitcoin).
+
+#### Q7 correction feedback
+
+Outcome: Correct
+
+Why: You explain confirmation counts and now identify the risk of accepting
+an unconfirmed payment.
+
+Read again: [Chapter 2 — Bitcoin Mining](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#bitcoin-mining).
+
+#### Q8 correction feedback
+
+Outcome: Needs verification
+
+Why: You now explain the transaction links and UTXOs. The assigned chapters do
+not compare account models or support your reasons for Bitcoin's choice.
+
+Read again: [Chapter 2 — Transaction Chains](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#transaction-chains);
 [Chapter 2 — Getting the Right Inputs](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02_overview.adoc#getting-the-right-inputs).
