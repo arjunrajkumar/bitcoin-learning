@@ -14,7 +14,8 @@ are used only to locate its questions.
 - [Security & second-layer applications](security-and-second-layer-applications/questions.md)
 - [Sparrow wallet practice](sparrow-wallet-practice/questions.md)
 
-Each topic has three attempt files. Each question has separate spaces for the
-original answer, review and corrected explanation. Full introductory questions
+Each topic has three attempt files. Each file keeps all original answers together.
+Learner corrections have a separate section. Assistant feedback is at the end.
+Only clear typing errors are fixed in original answers. Full introductory questions
 come from the learner's supplied screenshot. Later topics use short indexes
 with a link to the full Bitshala prompts.

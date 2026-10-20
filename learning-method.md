@@ -2,10 +2,23 @@
 
 ## What is recorded
 
-Each content topic has a question file and three test files. Every test file
-has space for the learner's original answer, the assistant's review, and the
-learner's corrected explanation for each question. These roles stay separate.
+Each content topic has a question file and three test files. Put all numbered
+prompts and learner answers first. Put learner corrections in a separate section.
+Put all assistant feedback in the final section, with one review per question.
+Keep extra practice and cohort questions separate from the scored answers.
 The main README is a summary with links to the underlying evidence.
+
+Present the full topic's questions in one batch unless the learner asks otherwise.
+Include all source subparts. Wait for the full submission before giving feedback.
+Answers can arrive in several messages. Keep the attempt in progress until the
+learner submits it for review. Record confidence and help used for the batch,
+with any exceptions beside the relevant answer.
+
+Keep every answer in full. Correct only clear spelling, typing, punctuation
+and spacing errors. Preserve wording, order, meaning and factual claims.
+Do not fill gaps or improve an answer. Leave unclear words unchanged.
+Label spelling edits. Preserve earlier submissions and existing Git history.
+Spelling changes do not count as learner corrections or change the score.
 
 Use Test 1 after reading. Use Test 2 after a gap, then Test 3 after another gap.
 Choose the gap to suit recall. No fixed dates or weekly deadlines are required.
@@ -54,11 +67,23 @@ Use the next attempt to measure later recall.
 
 Explain the precise error, the missing reasoning and how to check the correction.
 Use specific source links. Give a manageable hint or a worked example when useful.
+Keep the result, all numbered reviews, sources and next action in the final
+assistant feedback section. Do not insert feedback between learner answers.
 The learner writes the corrected explanation and the reason for the change.
 
 Include occasional new examples or practical tasks to check application.
 Record these under Extra practice and keep them outside the repeated-question
 score. Retest unresolved gaps even after the third attempt.
+
+## Saving to GitHub
+
+Save the answers and feedback in the correct test file after review.
+Update the README from its per-question outcomes.
+Check answer completeness, spelling edits, feedback order and score counts.
+Inspect Git status and review the scoped diff. Stage explicit file paths.
+Commit and push the learning changes to origin unless the learner asks to
+keep them local. Preserve unrelated work and never force-push.
+Confirm the push result and link to the saved test.
 
 ## Why this method
 

@@ -23,16 +23,19 @@ unanswered counts are reported separately. Scores are personal review results,
 not Bitshala grades. Corrections do not change an original attempt score.
 
 Continue here: [Introduction & how Bitcoin works — Test 1 corrections](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-1.md#next-action).
-Start with Q4 and Q8. Keep the original answers and write corrections below the reviews.
+Start with Q4 and Q8. Write corrections in the separate **My corrections** section.
 
 ## How I use this record
 
 1. Read a small section and study examples.
-2. Answer the relevant questions from memory. Record any help used.
-3. Ask for a review. Keep the first answer unchanged.
+2. Answer all topic questions in one batch from memory. Record confidence and help used.
+3. Submit the full batch for review. Allow spelling fixes only in the saved answers.
 4. Write a corrected explanation in my own words.
 5. Return after a gap and answer again with earlier answers and reviews closed.
 6. Apply the idea to a fresh example when useful.
+
+Each test keeps all answers together. Assistant feedback is at the end.
+Factual corrections stay separate from the original answers.
 
 There are no fixed weekly deadlines. Tests 2 and 3 are later memory attempts.
 Three attempts are a starting point; unresolved gaps can need more practice.
@@ -82,11 +85,15 @@ after reading, then two later attempts from memory after gaps. No fixed weekly
 deadlines are needed.
 
 I write the answers, predictions, code attempts and corrected explanations.
-Preserve my first answers verbatim. Review each question with clear reasons
-and reliable source links. Give useful hints, explain gaps, and occasionally
-test a fresh example. Do not fill in my answers or invent progress.
+Present all topic questions in one batch. Include full prompts and all subparts.
+Wait for my full submission before giving feedback. Keep my answers in full.
+Correct only clear spelling and typing errors. Keep my wording and meaning.
+Review each question with clear reasons and reliable source links.
+Give useful hints, explain gaps, and occasionally test a fresh example.
+Do not fill in my answers or invent progress.
 
-Keep my answers, your review and my corrections in the relevant test file.
+Keep all my answers together at the start of the relevant test file.
+Keep my corrections in a separate section. Put all your feedback at the end.
 Update the README with fully correct / total only after review is complete.
 Show partial answers separately. Corrections do not change the original score.
 Follow the full scoring rules in learning-method.md.

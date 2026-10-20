@@ -27,28 +27,60 @@ Keep one main idea in each sentence. Preserve exact code and error messages.
   Never reset, overwrite, force-push or silently discard learner work.
 - Use recorded attempts to find the current position. Empty templates are not
   submitted answers. Do not assign a calendar deadline or recreate a 20-day plan.
-- When the learner asks for a quiz, present one question at a time unless they
-  request a batch. Wait for the answer before revealing its solution or old
-  feedback. Keep the source prompt visible during recall, but keep answers closed.
 - Later topic question files contain indexes. Read the full Bitshala prompt
   before grading. If it is unavailable, ask for the prompt instead of guessing.
-- If an answer is supplied in chat for recording, preserve its wording in the
-  correct attempt. Separate assistant feedback from the learner's correction.
 - Report the next useful action and whether changes are local, committed or
   pushed. GitHub synchronises pushed files; local edits need to be saved and
   pushed before continuing from another laptop.
+
+## Asking questions
+
+- Start a test only when the learner asks.
+- Present all questions for the current topic in one batch by default.
+  Include each full source prompt and all its subparts. Keep the source numbering.
+  If the learner has already answered a question, present the remaining questions.
+- Keep prompts visible during recall. Keep solutions, earlier answers and old
+  feedback closed. Wait for the full submission before giving feedback or scores.
+- The learner can send answers in several messages. Save partial submissions
+  as in progress. Do not treat an unfinished batch as unanswered questions.
+- Ask the learner to report confidence and any help used. One statement can
+  apply to the full batch. Record exceptions against the relevant question.
+- If the learner asks for a hint during the test, give one and record that help.
+  Follow a request to switch to one question at a time or to review a partial batch.
 
 ## Learner ownership
 
 - The learner writes first answers, predictions, code attempts and corrections.
 - Never complete learner answer fields, invent results or mark attempts done
   without submitted work and a review.
-- Preserve submitted original answers verbatim. Append feedback and corrections.
-  Label any assistant explanation clearly. Do not replace the learner's wording.
+- Keep every submitted answer in full. Correct only clear spelling, typing,
+  punctuation and spacing errors. Keep the learner's wording, order and meaning.
+  Do not paraphrase, improve the reasoning, fill gaps or fix factual errors.
+  If an intended word is unclear, leave it unchanged.
+- Preserve exact code, commands, numbers and technical claims. Put factual
+  corrections in assistant feedback. Label spelling edits as such.
+- Keep earlier submissions when a later batch includes another version.
+  Do not count the two versions as separate attempts.
+  Preserve the original text in Git history when it has already been committed.
 - Use short, direct language. Spelling is not a scoring criterion.
 - Give a specific hint where useful. If the learner remains stuck, explain with
   an example, then ask a fresh question. Do not force prolonged guessing.
 - Keep ordinary repository administration separate from Bitcoin exercises.
+
+## Answer and feedback layout
+
+- Put all numbered questions and learner answers together at the start of the
+  test file. Keep answers in source order. Do not put feedback between answers.
+- Put learner corrections in a separate section after all original answers.
+  Leave these fields empty until the learner supplies corrections.
+  Keep extra practice and cohort questions separate from the scored answers.
+- Put all assistant feedback in the final section of the file.
+  Include the result, a separate review for each numbered question, sources,
+  and the next useful action. Clearly label assistant explanations.
+- Use the same order when showing a full attempt in chat: all learner answers,
+  then feedback. A short status message can link to the complete file.
+- Keep learning-method.md, README guidance and unused test templates consistent
+  with this format. A layout or spelling change does not change a score.
 
 ## Review and scoring
 
@@ -78,5 +110,16 @@ The introductory questions were supplied by the user. Later topics contain
 brief indexes and links to full Bitshala prompts.
 Add future courses under courses/ and append their content rows to README.md.
 Preserve completed records when a source question changes.
-Use explicit paths when staging. Review diffs before committing or pushing.
-Do not include unrelated repositories or files.
+
+After reviewing a submitted batch, save the full answers and final feedback
+in the correct test file. Update the README from that file's reviewed outcomes.
+The learner's request to save or update this learning record includes committing
+and pushing it to this repository. Follow any request to keep changes local.
+
+Before publishing, check that all answers are present and only typing errors
+were edited. Check the feedback order and score counts. Inspect Git status.
+Use explicit file paths when staging. Review the scoped diff before committing.
+Commit the learning changes and push to origin on the intended branch.
+Do not force-push or include unrelated repositories or files.
+Confirm whether the push succeeded and link to the saved test.
+If it fails, report what remains local and the actual reason.
