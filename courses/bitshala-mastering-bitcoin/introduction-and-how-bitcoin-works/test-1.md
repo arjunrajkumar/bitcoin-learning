@@ -2,10 +2,11 @@
 
 [Questions](questions.md) · [Learning results](../../../README.md)
 
-- Status: Corrections reviewed; Q4 privacy reason added, address claim needs revision; Q8 needs verification
+- Status: Reviewed; learner moved on; remaining Q4 and Q8 review points deferred
 - Started: 2026-10-20
 - Submitted and reviewed: 2026-10-20
 - Corrections submitted and reviewed: 2026-10-20
+- Moved on: 2026-10-20, at the learner's request, to Bitcoin Core, keys & addresses
 - Confidence: Medium/high for the full submission, as reported.
 - Help used while answering: None, as reported.
 - Gap since the previous attempt: Not applicable

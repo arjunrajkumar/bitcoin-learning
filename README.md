@@ -15,21 +15,17 @@ The work is grouped by content. Start with Bitshala's Mastering Bitcoin course.
 | [Mastering Bitcoin — Sparrow wallet practice](courses/bitshala-mastering-bitcoin/sparrow-wallet-practice/questions.md) | [Not started](courses/bitshala-mastering-bitcoin/sparrow-wallet-practice/test-1.md) | [Not started](courses/bitshala-mastering-bitcoin/sparrow-wallet-practice/test-2.md) | [Not started](courses/bitshala-mastering-bitcoin/sparrow-wallet-practice/test-3.md) |
 
 Click a topic to open its questions. Click a test result to open my answers,
-the review, and my corrections. Introduction Test 1 and six corrections have
-been reviewed. The Q2 correction is correct after the learner's typo clarification.
-Q4 now explains why privacy matters. Its claim about new addresses still needs
-revision. The fungibility part of Q4 and the remaining parts of Q8 are not
-established by the assigned chapters.
+the review, and my corrections. Introduction Test 1 and its corrections have
+been reviewed. On 2026-10-20, the learner chose to move on to the next topic.
+The remaining Q4 and Q8 review points stay recorded in Test 1 for later.
 
 Results use **fully correct / total questions**. Partial, incorrect and
 unanswered counts are reported separately. Scores are personal review results,
 not Bitshala grades. Corrections do not change an original attempt score.
 
-Continue here: [Introduction & how Bitcoin works — latest Q4 review](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-1.md#q4-privacy-addition-review--2026-10-20).
-The [latest Q2 review](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-1.md#q2-typo-clarification-review--2026-10-20) records the clarification.
-Review the final sentence of the Q4 privacy addition next.
-Append further corrections under **My corrections**.
-Keep the submitted versions.
+Continue here: [Bitcoin Core, keys & addresses — assigned reading](courses/bitshala-mastering-bitcoin/bitcoin-core-keys-and-addresses/questions.md#reading).
+Read Chapter 3: Bitcoin Core, then Chapter 4: Keys and Addresses.
+After reading, ask to start Test 1 for this topic. That test has not started.
 
 ## How I use this record
 
@@ -114,7 +110,7 @@ Follow the full scoring rules in learning-method.md.
 Check Git status and remote changes before editing. Preserve local work.
 Never force-push or discard answers. When I ask you to save learning work,
 review the scoped diff, commit and push it to this repository. Tell me whether
-the push succeeded. Keep secrets and private account data out of this public repo.
+the push succeeded. Keep secrets and private account data out of this private repo.
 
 Use short, clear English. Handle routine repository setup without assigning me
 Bitcoin exercises. Finish setup by showing my current topic and next action.
