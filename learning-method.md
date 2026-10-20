@@ -65,10 +65,21 @@ Use the next attempt to measure later recall.
 
 ## Feedback and application
 
-Explain the precise error, the missing reasoning and how to check the correction.
-Use specific source links. Give a manageable hint or a worked example when useful.
-Keep the result, all numbered reviews, sources and next action in the final
-assistant feedback section. Do not insert feedback between learner answers.
+Use only **Outcome**, **Why**, and **Read again** for each numbered review.
+Give a short reason. Do not explain the correct answer or add worked examples.
+Give hints or further teaching only when the learner asks.
+
+Use only the reading assigned to the current topic or source week.
+Link to the exact paragraph or smallest matching section for each feedback entry.
+Name the chapter and section. Use a fixed revision and narrow line range where
+available. GitHub links use `?plain=1#Lx-Ly` to show the selected source lines.
+If the assigned text does not cover a point, state that limit in **Why**.
+Do not use a nearby passage as proof of an unsupported claim.
+Do not add other reading. Use Needs verification when a fair outcome cannot
+be established from the allowed reading.
+
+Keep the result and all numbered reviews in the final assistant feedback section.
+Do not insert feedback between learner answers.
 The learner writes the corrected explanation and the reason for the change.
 
 Include occasional new examples or practical tasks to check application.
@@ -79,7 +90,8 @@ score. Retest unresolved gaps even after the third attempt.
 
 Save the answers and feedback in the correct test file after review.
 Update the README from its per-question outcomes.
-Check answer completeness, spelling edits, feedback order and score counts.
+Check answer completeness, spelling edits, feedback format and score counts.
+Check that each reading link targets the relevant assigned passage.
 Inspect Git status and review the scoped diff. Stage explicit file paths.
 Commit and push the learning changes to origin unless the learner asks to
 keep them local. Preserve unrelated work and never force-push.

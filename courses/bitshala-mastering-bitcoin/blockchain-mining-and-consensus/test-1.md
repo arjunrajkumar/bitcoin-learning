@@ -122,40 +122,64 @@ Keep these results separate from the repeated-question score. -->
 
 ### Q1 feedback
 
-<!-- Reviewer: outcome, what is correct, what needs correction, why, and source links. -->
 Outcome: Not reviewed
+
+Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
+
+Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
 
 ### Q2 feedback
 
-<!-- Reviewer: outcome, what is correct, what needs correction, why, and source links. -->
 Outcome: Not reviewed
+
+Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
+
+Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
 
 ### Q3 feedback
 
-<!-- Reviewer: outcome, what is correct, what needs correction, why, and source links. -->
 Outcome: Not reviewed
+
+Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
+
+Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
 
 ### Q4 feedback
 
-<!-- Reviewer: outcome, what is correct, what needs correction, why, and source links. -->
 Outcome: Not reviewed
+
+Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
+
+Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
 
 ### Q5 feedback
 
-<!-- Reviewer: outcome, what is correct, what needs correction, why, and source links. -->
 Outcome: Not reviewed
+
+Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
+
+Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
 
 ### Q6 feedback
 
-<!-- Reviewer: outcome, what is correct, what needs correction, why, and source links. -->
 Outcome: Not reviewed
+
+Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
+
+Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
 
 ### Q7 feedback
 
-<!-- Reviewer: outcome, what is correct, what needs correction, why, and source links. -->
 Outcome: Not reviewed
+
+Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
+
+Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->
 
 ### Q8 feedback
 
-<!-- Reviewer: outcome, what is correct, what needs correction, why, and source links. -->
 Outcome: Not reviewed
+
+Why: <!-- After submission, give a short reason. Do not explain the correct answer. State any gap in the assigned reading. -->
+
+Read again: <!-- Link to the exact paragraph or smallest matching section in the assigned reading only. Use a fixed revision and narrow line range when available. -->

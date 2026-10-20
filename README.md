@@ -22,7 +22,7 @@ Results use **fully correct / total questions**. Partial, incorrect and
 unanswered counts are reported separately. Scores are personal review results,
 not Bitshala grades. Corrections do not change an original attempt score.
 
-Continue here: [Introduction & how Bitcoin works — Test 1 corrections](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-1.md#next-action).
+Continue here: [Introduction & how Bitcoin works — Test 1 corrections](courses/bitshala-mastering-bitcoin/introduction-and-how-bitcoin-works/test-1.md#my-corrections).
 Start with Q4 and Q8. Write corrections in the separate **My corrections** section.
 
 ## How I use this record
@@ -35,6 +35,8 @@ Start with Q4 and Q8. Write corrections in the separate **My corrections** secti
 6. Apply the idea to a fresh example when useful.
 
 Each test keeps all answers together. Assistant feedback is at the end.
+Each review gives only **Outcome**, **Why**, and **Read again**.
+Reading links point to the closest matching passage in the assigned material.
 Factual corrections stay separate from the original answers.
 
 There are no fixed weekly deadlines. Tests 2 and 3 are later memory attempts.
@@ -88,8 +90,10 @@ I write the answers, predictions, code attempts and corrected explanations.
 Present all topic questions in one batch. Include full prompts and all subparts.
 Wait for my full submission before giving feedback. Keep my answers in full.
 Correct only clear spelling and typing errors. Keep my wording and meaning.
-Review each question with clear reasons and reliable source links.
-Give useful hints, explain gaps, and occasionally test a fresh example.
+For each question, give only Outcome, Why, and Read again.
+Link to the exact paragraph or smallest matching section in the assigned reading.
+Use no other reading sources. State when those materials do not cover a point.
+Do not explain the correct answer unless I ask.
 Do not fill in my answers or invent progress.
 
 Keep all my answers together at the start of the relevant test file.

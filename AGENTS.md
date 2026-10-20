@@ -63,8 +63,8 @@ Keep one main idea in each sentence. Preserve exact code and error messages.
   Do not count the two versions as separate attempts.
   Preserve the original text in Git history when it has already been committed.
 - Use short, direct language. Spelling is not a scoring criterion.
-- Give a specific hint where useful. If the learner remains stuck, explain with
-  an example, then ask a fresh question. Do not force prolonged guessing.
+- Give a hint or explain a correct answer only when the learner asks.
+  Keep those teaching replies separate from the test feedback.
 - Keep ordinary repository administration separate from Bitcoin exercises.
 
 ## Answer and feedback layout
@@ -75,8 +75,10 @@ Keep one main idea in each sentence. Preserve exact code and error messages.
   Leave these fields empty until the learner supplies corrections.
   Keep extra practice and cohort questions separate from the scored answers.
 - Put all assistant feedback in the final section of the file.
-  Include the result, a separate review for each numbered question, sources,
-  and the next useful action. Clearly label assistant explanations.
+  Include the result and a separate review for each numbered question.
+  Each review has only three fields: **Outcome**, **Why**, and **Read again**.
+  Give a short reason and a direct reading link. Do not explain the correct
+  answer, supply a model answer, or add a worked example.
 - Use the same order when showing a full attempt in chat: all learner answers,
   then feedback. A short status message can link to the complete file.
 - Keep learning-method.md, README guidance and unused test templates consistent
@@ -90,8 +92,19 @@ Review every numbered question separately. Use Correct, Partial, Incorrect,
 Unanswered, or Needs verification. Record reasons and supporting sources.
 Distinguish factual claims, trade-offs, consensus rules and version-dependent
 policy. Flag false premises in source questions instead of teaching them as fact.
-Verify corrections against the relevant book, BIP, official documentation or
-pinned Bitcoin Core source. Record uncertainty explicitly.
+Use only the reading materials assigned to the current topic or source week.
+For each feedback entry, link directly to the paragraph or smallest section
+in that assigned reading that most closely matches the question and reason.
+Place the link in **Read again**. Name the chapter and section in the link text.
+Use a fixed source revision and a narrow line range when available.
+For GitHub prose, use `?plain=1#Lx-Ly` to show the selected source lines.
+Do not substitute a link to a whole chapter when a precise link is available.
+Do not add other chapters, the white paper, BIPs, documentation or source code
+unless they are themselves assigned reading for this topic.
+If the reading does not cover a point, say so briefly in **Why**.
+A link to the closest passage is not evidence for a claim it does not contain.
+Do not invent support or expand the reading list. Use Needs verification if
+the allowed reading is insufficient for a fair outcome. Record uncertainty.
 Do not treat familiarity, a copied correction, or three attempts as proof of mastery.
 For practical topics, inspect actual learner work and command output; do not
 claim that a task ran based on a written description.
@@ -117,7 +130,9 @@ The learner's request to save or update this learning record includes committing
 and pushing it to this repository. Follow any request to keep changes local.
 
 Before publishing, check that all answers are present and only typing errors
-were edited. Check the feedback order and score counts. Inspect Git status.
+were edited. Check the feedback format, order and score counts.
+Check that each reading link targets the relevant assigned passage.
+Inspect Git status.
 Use explicit file paths when staging. Review the scoped diff before committing.
 Commit the learning changes and push to origin on the intended branch.
 Do not force-push or include unrelated repositories or files.
