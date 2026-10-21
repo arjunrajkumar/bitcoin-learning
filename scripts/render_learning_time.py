@@ -1,6 +1,7 @@
 """Render the README total and calendar from confirmed daily minutes."""
 
 from datetime import date, timedelta
+from hashlib import sha256
 from html import escape
 import json
 from pathlib import Path
@@ -135,18 +136,22 @@ def main():
     total = duration(sum(days.values()))
     assets = ROOT / "assets"
     assets.mkdir(exist_ok=True)
+    image_urls = {}
     for theme in THEMES:
-        (assets / f"learning-time-{theme}.svg").write_text(
-            render_calendar(started, as_of, days, theme), encoding="utf-8"
-        )
+        svg = render_calendar(started, as_of, days, theme)
+        filename = f"learning-time-{theme}.svg"
+        (assets / filename).write_text(svg, encoding="utf-8")
+        # Change the image URL when its contents change to avoid stale copies.
+        version = sha256(svg.encode("utf-8")).hexdigest()[:12]
+        image_urls[theme] = f"assets/{filename}?v={version}"
     section = f'''{START_MARKER}
 <br>
 
 **Total time: {total}**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/learning-time-dark.svg">
-  <img src="assets/learning-time-light.svg" alt="Exploring Bitcoin daily learning time. Outlined squares have no entry; green squares show recorded time.">
+  <source media="(prefers-color-scheme: dark)" srcset="{image_urls['dark']}">
+  <img src="{image_urls['light']}" alt="Exploring Bitcoin daily learning time. Outlined squares have no entry; green squares show recorded time.">
 </picture>
 {END_MARKER}'''
     path = ROOT / "README.md"

@@ -11,7 +11,7 @@
 **Total time: 9 hrs 36 min**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/learning-time-dark.svg">
-  <img src="assets/learning-time-light.svg" alt="Exploring Bitcoin daily learning time. Outlined squares have no entry; green squares show recorded time.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/learning-time-dark.svg?v=9a6847fa7815">
+  <img src="assets/learning-time-light.svg?v=8105fbe047f0" alt="Exploring Bitcoin daily learning time. Outlined squares have no entry; green squares show recorded time.">
 </picture>
 <!-- learning-time:end -->
