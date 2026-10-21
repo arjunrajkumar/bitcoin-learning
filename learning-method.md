@@ -2,11 +2,19 @@
 
 ## What is recorded
 
-Each content topic has a question file and three test files. Put all numbered
+Each Bitshala content topic has a question file and three test files. Put all numbered
 prompts and learner answers first. Put learner corrections in a separate section.
 Put all assistant feedback in the final section, with one review per question.
 Keep extra practice and cohort questions separate from the scored answers.
 The main README is a summary with links to the underlying evidence.
+
+Other courses can use coding assignments instead of this three-test format.
+For MIT MAS.S62, keep each attempt in its problem-set folder.
+Record the actual command results and any help used.
+Use Not started, In progress, Awaiting review or Reviewed as appropriate.
+Read the full source assignment before reviewing the submitted work.
+Keep learner work and assistant feedback separate.
+Do not assign a Bitshala question score to a coding project.
 
 Present the full topic's questions in one batch unless the learner asks otherwise.
 Include all source subparts. Wait for the full submission before giving feedback.

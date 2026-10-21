@@ -23,11 +23,32 @@ Results use **fully correct / total questions**. Partial, incorrect and
 unanswered counts are reported separately. Scores are personal review results,
 not Bitshala grades. Corrections do not change an original attempt score.
 
-Continue here: [Bitcoin Core, keys & addresses — assigned reading](courses/bitshala-mastering-bitcoin/bitcoin-core-keys-and-addresses/questions.md#reading).
-Read Chapter 3: Bitcoin Core, then Chapter 4: Keys and Addresses.
-After reading, ask to start Test 1 for this topic. That test has not started.
+On 2026-10-21, the learner paused Chapter 4 to build the foundations with MIT's
+Cryptocurrency Engineering and Design course. The Bitshala Bitcoin Core,
+keys & addresses test has not started.
+Return to the [assigned reading](courses/bitshala-mastering-bitcoin/bitcoin-core-keys-and-addresses/questions.md#reading)
+when ready.
+
+## MIT — Cryptocurrency Engineering and Design
+
+[Course material and current position](courses/mit-cryptocurrency-engineering/README.md).
+Use this same private repository for the Go exercises.
+The original starter files are saved. No MIT attempts have been submitted.
+
+| Content | Status |
+| --- | --- |
+| [Problem set 1 — Hash-based signature schemes](courses/mit-cryptocurrency-engineering/pset01/README.md) | Not started |
+| [Problem set 2 — Mine your name](courses/mit-cryptocurrency-engineering/pset02/README.md) | Not started |
+| [Problem set 3 — UTXOhunt](courses/mit-cryptocurrency-engineering/pset03/README.md) | Not started |
+| [Final project](courses/mit-cryptocurrency-engineering/final-project/README.md) | Not started; topic not selected |
+
+Next setup step: run `go version` and share the output.
+Homebrew's completion message for Go 1.27.3 was shown on 2026-10-21.
+The course code has not been built or tested with this version.
 
 ## How I use this record
+
+For Bitshala topic tests:
 
 1. Read a small section and study examples.
 2. Answer all topic questions in one batch from memory. Record confidence and help used.
@@ -45,6 +66,11 @@ Factual corrections stay separate from the original answers.
 There are no fixed weekly deadlines. Tests 2 and 3 are later memory attempts.
 Three attempts are a starting point; unresolved gaps can need more practice.
 [Review method and scoring](learning-method.md) explains how results are recorded.
+
+For MIT, write the code attempts and explanations in the relevant problem-set
+folder. Keep command results and help used with that work. Review each assignment
+against its full source prompt. These coding assignments have separate progress
+records and do not change Bitshala test scores.
 
 Save source code, diagrams and command results in the topic's `experiments/`
 folder when there is work to keep. Commit and push local work before changing

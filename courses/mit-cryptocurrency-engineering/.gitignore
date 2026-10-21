@@ -1,0 +1,8 @@
+# Local Go build and test output.
+/pset01/pset01
+/pset02/pset02
+/pset02/server/server
+/pset03/pset03
+/pset03/utxohunt
+*.test
+__debug_bin*
