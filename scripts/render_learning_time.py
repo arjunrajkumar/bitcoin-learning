@@ -79,7 +79,7 @@ def render_calendar(started, as_of, days, theme_name):
     out = [
         '<svg xmlns="http://www.w3.org/2000/svg" width="860" height="190" '
         'viewBox="0 0 860 190" role="img" aria-labelledby="title description">',
-        '<title id="title">Bitcoin learning time</title>',
+        '<title id="title">Exploring Bitcoin — learning time</title>',
         f'<desc id="description">{escape(description)}</desc>',
         '<style>text{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;'
         f'font-size:11px;fill:{theme["text"]}' + '}</style>',
@@ -136,7 +136,7 @@ def main():
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/learning-time-dark.svg">
-  <img src="assets/learning-time-light.svg" alt="Daily Bitcoin learning time. Total: {total}. Outlined squares have no entry; green squares show recorded time.">
+  <img src="assets/learning-time-light.svg" alt="Exploring Bitcoin daily learning time. Total: {total}. Outlined squares have no entry; green squares show recorded time.">
 </picture>
 {END_MARKER}'''
     path = ROOT / "README.md"

@@ -10,6 +10,6 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/learning-time-dark.svg">
-  <img src="assets/learning-time-light.svg" alt="Daily Bitcoin learning time. Total: 6 h 5 min. Outlined squares have no entry; green squares show recorded time.">
+  <img src="assets/learning-time-light.svg" alt="Exploring Bitcoin daily learning time. Total: 6 h 5 min. Outlined squares have no entry; green squares show recorded time.">
 </picture>
 <!-- learning-time:end -->

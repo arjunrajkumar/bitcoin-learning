@@ -1,4 +1,4 @@
-# Bitcoin learning workspace
+# Exploring Bitcoin workspace
 
 ## Purpose and plan
 
@@ -36,7 +36,7 @@ Do not restore the retired Weightless material or its deleted repository.
 
 ## Start or resume a session
 
-- Confirm the repository is arjunrajkumar/bitcoin-learning.
+- Confirm the repository is arjunrajkumar/exploring-bitcoin.
 - Read this file, README.md and the relevant area files.
 - Use saved notes and actual submitted output to find the current position.
   Do not assume access to another chat.
