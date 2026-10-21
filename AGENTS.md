@@ -13,7 +13,7 @@ Follow the order in README.md:
 3. Bitshala Programming Bitcoin.
 4. Bitshala Bitcoin Protocol Development.
 
-Keep README.md limited to its heading, four checklist links, total learning time
+Keep README.md limited to its heading, four checklist links, total time
 and green calendar. Do not add a daily log table or a weekly total.
 Put details in the matching folder.
 Use the resource names, or refer to lectures, reading, exercises and projects.
@@ -86,8 +86,8 @@ Mark a step complete only when the learner confirms completion.
 
 - Save confirmed daily minutes in `data/learning-time.json`.
   Dates use India time (`Asia/Kolkata`).
-- The first entry is 2026-10-20: 365 minutes.
-  It is the sum of the 12 session durations in the learner's screenshot.
+- Read dates from the supplied evidence, including the year.
+  The older screenshot explicitly shows 2025 for the October 6–8 entries.
 - A missing date means no entry. Record zero only when the learner reports zero.
   Never infer study time from commits, chat length or a running node.
 - Update one entry per date. Replace a corrected daily total instead of adding
@@ -95,7 +95,10 @@ Mark a step complete only when the learner confirms completion.
 - Set `as_of` to the current date in India when updating the calendar.
 - Run `python3 scripts/render_learning_time.py` from the repository root.
   This updates the total and both calendar images without changing the checklist.
-- The calendar shows the latest 53 weeks. The total includes all recorded days.
+- Start the calendar at the first day of the earliest recorded month.
+  Include year labels so entries from different years remain distinct.
+- Use the label `Total time: H hrs M min` above the calendar.
+  Keep extra space between the checklist and this label.
 - Commit and push the data, generated images and README together.
 
 ### Repository files

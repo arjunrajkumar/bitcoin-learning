@@ -6,10 +6,12 @@
 - [ ] [Bitshala Bitcoin Protocol Development](bitshala-bitcoin-protocol-development/README.md)
 
 <!-- learning-time:start -->
-**Total learning time: 6 h 5 min**
+<br>
+
+**Total time: 9 hrs 36 min**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/learning-time-dark.svg">
-  <img src="assets/learning-time-light.svg" alt="Exploring Bitcoin daily learning time. Total: 6 h 5 min. Outlined squares have no entry; green squares show recorded time.">
+  <img src="assets/learning-time-light.svg" alt="Exploring Bitcoin daily learning time. Outlined squares have no entry; green squares show recorded time.">
 </picture>
 <!-- learning-time:end -->

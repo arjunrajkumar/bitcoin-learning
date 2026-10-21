@@ -28,7 +28,7 @@ def duration(minutes):
     hours, remainder = divmod(minutes, 60)
     if not hours:
         return f"{remainder} min"
-    return f"{hours} h" + (f" {remainder} min" if remainder else "")
+    return f"{hours} {'hr' if hours == 1 else 'hrs'}" + (f" {remainder} min" if remainder else "")
 
 
 def day_label(day):
@@ -66,38 +66,46 @@ def colour(minutes, theme):
 def render_calendar(started, as_of, days, theme_name):
     theme = THEMES[theme_name]
     # Sunday begins each column, as in GitHub's contribution calendar.
-    week_start = as_of - timedelta(days=(as_of.weekday() + 1) % 7)
-    first = week_start - timedelta(weeks=52)
-    total = duration(sum(days.values()))
+    visible_start = started.replace(day=1)
+    first = visible_start - timedelta(days=(visible_start.weekday() + 1) % 7)
+    columns = (as_of - first).days // 7 + 1
+    width = max(860, 46 + columns * 15 + 22)
     description = (
-        f"Daily learning time from {day_label(first)} to {day_label(as_of)}. "
-        f"Tracking began {day_label(started)}. Total recorded: {total}. "
+        f"Daily learning time from {day_label(visible_start)} to {day_label(as_of)}. "
+        f"Tracking began {day_label(started)}. "
         "Outlined squares have no entry. Filled grey means a reported zero. "
         "Green levels are under 1 hour, 1 to under 2 hours, "
         "2 to under 4 hours, and 4 hours or more."
     )
     out = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="860" height="190" '
-        'viewBox="0 0 860 190" role="img" aria-labelledby="title description">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="190" '
+        f'viewBox="0 0 {width} 190" role="img" aria-labelledby="title description">',
         '<title id="title">Exploring Bitcoin — learning time</title>',
         f'<desc id="description">{escape(description)}</desc>',
         '<style>text{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;'
         f'font-size:11px;fill:{theme["text"]}' + '}</style>',
-        f'<rect x="0.5" y="0.5" width="859" height="189" rx="10" '
+        f'<rect x="0.5" y="0.5" width="{width - 1}" height="189" rx="10" '
         f'fill="{theme["background"]}" stroke="{theme["border"]}"/>',
     ]
-    # Skip a short partial month at the left edge to avoid overlapping labels.
-    previous_month = None
-    for column in range(53):
-        sunday = first + timedelta(weeks=column)
-        if sunday.month != previous_month:
-            if column or sunday.day <= 14:
-                out.append(f'<text x="{46 + column * 15}" y="26">{MONTHS[sunday.month - 1]}</text>')
-            previous_month = sunday.month
+    month = visible_start
+    previous_label_x = None
+    while month <= as_of:
+        column = (month - first).days // 7
+        label = MONTHS[month.month - 1]
+        if month == visible_start or month.month in (1, visible_start.month):
+            label += f" {month.year}"
+        # Keep labels inside the frame, including a month with only one column.
+        x = min(46 + column * 15, width - 16 - len(label) * 6)
+        if previous_label_x is None or x - previous_label_x >= 54:
+            out.append(f'<text x="{x}" y="26">{label}</text>')
+            previous_label_x = x
+        month = date(month.year + month.month // 12, month.month % 12 + 1, 1)
     for row, label in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
         out.append(f'<text x="12" y="{50 + row * 15}">{label}</text>')
     for offset in range((as_of - first).days + 1):
         day = first + timedelta(days=offset)
+        if day < visible_start:
+            continue
         minutes = days.get(day)
         column, row = divmod(offset, 7)
         label = "Not tracked yet" if day < started else "Not reported" if minutes is None else duration(minutes)
@@ -111,7 +119,7 @@ def render_calendar(started, as_of, days, theme_name):
     out.append(f'<text x="22" y="173">Since {day_label(started)}</text>')
     legend = (("No entry", None, 104), ("0", 0, 48), ("&lt;1h", 1, 72),
               ("1–&lt;2h", 60, 86), ("2–&lt;4h", 120, 86), ("4h+", 240, 62))
-    x = 327
+    x = width - 533
     for label, minutes, spacing in legend:
         stroke = theme["empty"] if minutes is None else "none"
         out.append(f'<rect x="{x}" y="162" width="12" height="12" rx="2" '
@@ -132,11 +140,13 @@ def main():
             render_calendar(started, as_of, days, theme), encoding="utf-8"
         )
     section = f'''{START_MARKER}
-**Total learning time: {total}**
+<br>
+
+**Total time: {total}**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/learning-time-dark.svg">
-  <img src="assets/learning-time-light.svg" alt="Exploring Bitcoin daily learning time. Total: {total}. Outlined squares have no entry; green squares show recorded time.">
+  <img src="assets/learning-time-light.svg" alt="Exploring Bitcoin daily learning time. Outlined squares have no entry; green squares show recorded time.">
 </picture>
 {END_MARKER}'''
     path = ROOT / "README.md"
