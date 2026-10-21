@@ -13,7 +13,8 @@ Follow the order in README.md:
 3. Bitshala Programming Bitcoin.
 4. Bitshala Bitcoin Protocol Development.
 
-Keep README.md limited to its heading and four checklist links.
+Keep README.md limited to its heading, four checklist links, total learning time
+and green calendar. Do not add a daily log table or a weekly total.
 Put details in the matching folder.
 Use the resource names, or refer to lectures, reading, exercises and projects.
 Do not restore the retired Weightless material or its deleted repository.
@@ -80,6 +81,24 @@ Mark a step complete only when the learner confirms completion.
   Record setup fixes separately from learner solutions.
 
 ## Saving and publishing
+
+### Learning time
+
+- Save confirmed daily minutes in `data/learning-time.json`.
+  Dates use India time (`Asia/Kolkata`).
+- The first entry is 2026-10-20: 365 minutes.
+  It is the sum of the 12 session durations in the learner's screenshot.
+- A missing date means no entry. Record zero only when the learner reports zero.
+  Never infer study time from commits, chat length or a running node.
+- Update one entry per date. Replace a corrected daily total instead of adding
+  it twice. Do not add an unfinished day's time unless the learner asks.
+- Set `as_of` to the current date in India when updating the calendar.
+- Run `python3 scripts/render_learning_time.py` from the repository root.
+  This updates the total and both calendar images without changing the checklist.
+- The calendar shows the latest 53 weeks. The total includes all recorded days.
+- Commit and push the data, generated images and README together.
+
+### Repository files
 
 This repository is public. Keep private keys, wallet recovery phrases,
 credentials, authentication cookies and private account data out of it.
