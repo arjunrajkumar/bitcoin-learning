@@ -104,7 +104,8 @@ Mark a step complete only when the learner confirms completion.
 - Save confirmed daily minutes in `data/learning-time.json`.
   Dates use India time (`Asia/Kolkata`).
 - Read dates from the supplied evidence, including the year.
-  The older screenshot explicitly shows 2025 for the October 6–8 entries.
+  Follow Arjun's corrections. He confirmed that the October 6–8 entries
+  belong to 2026. The calendar starts in October 2026.
 - A missing date means no entry. Record zero only when the learner reports zero.
   Never infer study time from commits, chat length or a running node.
 - Update one entry per date. Replace a corrected daily total instead of adding
