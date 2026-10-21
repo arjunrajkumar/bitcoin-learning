@@ -1,0 +1,19 @@
+from bitcoin.rpc import RawProxy
+
+p = RawProxy()
+
+# Transaction data copied from Chapter 3.
+raw_tx = (
+    "01000000000101eb3ae38f27191aa5f3850dc9cad00492b88b72404f9da13569"
+    "8679268041c54a0100000000ffffffff02204e0000000000002251203b41daba"
+    "4c9ace578369740f15e5ec880c28279ee7f51b07dca69c7061e07068f8240100"
+    "000000001600147752c165ea7be772b2c0acb7f4d6047ae6f4768e0141cf5efe"
+    "2d8ef13ed0af21d4f4cb82422d6252d70324f6f4576b727b7d918e521c00b51b"
+    "e739df2f899c49dc267c0ad280aca6dab0d2fa2b42a45182fc83e81713010000"
+    "0000"
+)
+
+decoded_tx = p.decoderawtransaction(raw_tx)
+
+for output in decoded_tx["vout"]:
+    print(output["scriptPubKey"]["address"], output["value"])

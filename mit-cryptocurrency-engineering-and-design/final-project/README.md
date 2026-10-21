@@ -1,10 +1,10 @@
 # Final project
 
-[Course record](../README.md) · [MIT project requirements](https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/pages/assignments/)
+[MIT record](../README.md) · [MIT project requirements](https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/pages/assignments/)
 
 **Status:** Not started. No topic has been selected.
 
-The course asks for an application, a system feature or a research project.
+The assignment asks for an application, a system feature or a research project.
 It includes a presentation and a paper of about four pages.
 Read the full requirements before selecting a topic.
 

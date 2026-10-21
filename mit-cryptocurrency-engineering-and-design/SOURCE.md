@@ -1,15 +1,15 @@
 # Starter code sources
 
-Imported on 2026-10-21 for private study.
+Imported on 2026-10-21 for personal study.
 
-- Course: [MIT MAS.S62, Spring 2018](https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/).
+- Material: [MIT MAS.S62, Spring 2018](https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/).
 - Authors and source: [MIT Digital Currency Initiative — mas.s62](https://github.com/mit-dci/mas.s62).
 - Original repository revision: [`f1b926db95b6212ff8b4f08f5ad72ecae0fd4e52`](https://github.com/mit-dci/mas.s62/tree/f1b926db95b6212ff8b4f08f5ad72ecae0fd4e52).
 - Scope: the Go files for problem sets 1–3, including the problem set 2 server.
 - The Go file contents are unchanged at import.
-- The README files in this course folder are local navigation and progress notes.
+- The README files in this folder are local navigation and progress notes.
 - Full assignment prompts remain linked at MIT and in the original repository.
-- No course website archive, lecture PDFs or learner solutions were imported.
+- No website archive, lecture PDFs or learner solutions were imported.
 
 A Git blob hash identifies the exact stored contents of one file.
 The hashes below record the imported files before learner edits.

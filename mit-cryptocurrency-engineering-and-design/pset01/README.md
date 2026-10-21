@@ -1,6 +1,6 @@
 # Problem set 1 — Hash-based signature schemes
 
-[Course record](../README.md) · [Full MIT prompt](https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/pages/assignments/pset1-hash-based-signature-schemes/) · [Original instructions](https://github.com/mit-dci/mas.s62/tree/master/pset01)
+[MIT record](../README.md) · [Full MIT prompt](https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/pages/assignments/pset1-hash-based-signature-schemes/) · [Original instructions](https://github.com/mit-dci/mas.s62/tree/master/pset01)
 
 **Status:** Not started.
 

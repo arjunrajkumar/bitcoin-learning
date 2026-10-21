@@ -1,6 +1,6 @@
 # Problem set 3 — UTXOhunt
 
-[Course record](../README.md) · [Full MIT prompt](https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/pages/assignments/pset3-utxohunt/) · [Original instructions](https://github.com/mit-dci/mas.s62/tree/master/pset03)
+[MIT record](../README.md) · [Full MIT prompt](https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/pages/assignments/pset3-utxohunt/) · [Original instructions](https://github.com/mit-dci/mas.s62/tree/master/pset03)
 
 **Status:** Not started.
 
