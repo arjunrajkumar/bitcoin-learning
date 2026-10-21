@@ -69,12 +69,15 @@ def render_calendar(started, as_of, days, theme_name):
     theme = THEMES[theme_name]
     # Sunday begins each column, as in GitHub's contribution calendar.
     visible_start = started.replace(day=1)
+    first_year_end = date(visible_start.year + 1, visible_start.month, 1) - timedelta(days=1)
+    visible_end = max(as_of, first_year_end)
     first = visible_start - timedelta(days=(visible_start.weekday() + 1) % 7)
-    columns = (as_of - first).days // 7 + 1
+    columns = (visible_end - first).days // 7 + 1
     width = max(860, 46 + columns * 15 + 22)
     description = (
-        f"Daily learning time from {day_label(visible_start)} to {day_label(as_of)}. "
-        f"Tracking began {day_label(started)}. "
+        f"Daily learning calendar from {day_label(visible_start)} to {day_label(visible_end)}. "
+        f"Tracking began {day_label(started)}. Entries are current through {day_label(as_of)}. "
+        "Future days have empty squares. "
         "Outlined squares have no entry. Filled grey means a reported zero. "
         "Green levels are under 1 hour, 1 to under 2 hours, "
         "2 to under 4 hours, and 4 hours or more."
@@ -91,7 +94,7 @@ def render_calendar(started, as_of, days, theme_name):
     ]
     month = visible_start
     previous_label_x = None
-    while month <= as_of:
+    while month <= visible_end:
         column = (month - first).days // 7
         label = MONTHS[month.month - 1]
         if month == visible_start or month.month in (1, visible_start.month):
@@ -104,13 +107,18 @@ def render_calendar(started, as_of, days, theme_name):
         month = date(month.year + month.month // 12, month.month % 12 + 1, 1)
     for row, label in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
         out.append(f'<text x="12" y="{50 + row * 15}">{label}</text>')
-    for offset in range((as_of - first).days + 1):
+    for offset in range((visible_end - first).days + 1):
         day = first + timedelta(days=offset)
         if day < visible_start:
             continue
         minutes = days.get(day)
         column, row = divmod(offset, 7)
-        label = "Not tracked yet" if day < started else "Not reported" if minutes is None else duration(minutes)
+        if day > as_of:
+            label = "Future day"
+        elif day < started:
+            label = "Not tracked yet"
+        else:
+            label = "Not reported" if minutes is None else duration(minutes)
         stroke = theme["empty"] if minutes is None else "none"
         out.append(
             f'<rect data-date="{day.isoformat()}" x="{46 + column * 15}" '

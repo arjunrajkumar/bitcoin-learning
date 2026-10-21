@@ -114,6 +114,8 @@ Mark a step complete only when the learner confirms completion.
 - Run `python3 scripts/render_learning_time.py` from the repository root.
   This updates the total and both calendar images without changing the checklist.
 - Start the calendar at the first day of the earliest recorded month.
+  Show the full first year: October 2026 through September 2027.
+  Leave future days as empty squares. Do not record them as zero minutes.
   Include year labels so entries from different years remain distinct.
 - Use the label `Total time: H hrs M min` above the calendar.
   Keep extra space between the checklist and this label.
