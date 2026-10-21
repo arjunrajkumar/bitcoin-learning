@@ -8,10 +8,10 @@
 <!-- learning-time:start -->
 <br>
 
-**Total time: 9 hrs 36 min**
+**Total time: 16 hrs 58 min**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/learning-time-dark-d32f81eeb955.svg">
-  <img src="assets/learning-time-light-8c56793fb118.svg" alt="Exploring Bitcoin daily learning time. Outlined squares have no entry; green squares show recorded time.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/learning-time-dark-d7ddffae4d37.svg">
+  <img src="assets/learning-time-light-953c5f80b670.svg" alt="Exploring Bitcoin daily learning time. Outlined squares have no entry; green squares show recorded time.">
 </picture>
 <!-- learning-time:end -->
