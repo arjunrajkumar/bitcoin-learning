@@ -30,9 +30,26 @@ Do not restore the retired Weightless material or its deleted repository.
 - Guide practical work one small step at a time when asked.
 - Let Arjun run setup commands and exercise code unless he asks you to run them.
 - Explain concepts and help with problems when asked.
-- Do not start quizzes, assign scores, require confidence ratings or schedule
-  repeated tests unless Arjun explicitly asks.
+- Follow the daily review instructions below.
+- Do not assign scores or require confidence ratings unless Arjun asks.
 - Do not impose deadlines or add a study plan beyond the requested checklist.
+
+## Daily review
+
+- At the first learning session each day, give Arjun 5–10 short questions.
+  Use the date in India (`Asia/Kolkata`). Allow him to skip or defer the review.
+- Base questions on material he has already studied.
+  Check saved notes, exercises, earlier answers and the current conversation.
+  Do not assume that a planned topic has been learned.
+- Mix recent learning with older topics. Revisit earlier gaps in understanding.
+  Include questions that ask him to explain an idea or apply it to a small example.
+- Show the questions together by default. Wait for his answers before giving
+  solutions or feedback. Follow a request to work one question at a time.
+- Give short feedback after he answers. Explain mistakes in simple terms.
+  Preserve his answers separately from assistant feedback when saving them.
+- Check whether a review has already started or finished that day.
+  Resume an unfinished review instead of starting another one.
+  Keep repository administration separate from the daily review.
 
 ## Start or resume a session
 
