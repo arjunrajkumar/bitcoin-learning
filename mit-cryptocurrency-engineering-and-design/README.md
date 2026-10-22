@@ -24,6 +24,7 @@ The saved problem sets remain available for practice.
 
 - [Bits, bytes, hexadecimal and ASCII](notes/bits-bytes-hex-and-ascii.md) — handwritten notes and SHA-256 questions, 22 October 2026.
 - [Lecture 3 — Merkle trees, elliptic curves and signatures](notes/lecture-03.md) — understanding, clarification and open questions, 22 October 2026.
+- [Bank accounts and Bitcoin spending conditions](notes/transactions-and-spending-conditions.md) — personal understanding and AI reply, 22 October 2026.
 
 ## Exercises and projects
 
