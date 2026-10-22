@@ -69,3 +69,19 @@ An individual search can take fewer or more attempts.
 
 The whole SHA-256 hash is 32 bytes.
 The screenshot refers to its first 4 bytes being zero.
+
+## Eighteen leading zeros and search effort
+
+Lecture screenshot shared by Arjun on 22 October 2026.
+
+![Lecture slide comparing eighteen leading hexadecimal zeros with eight leading zeros: nine zero bytes, about 10²² attempts, and 2⁴⁰ times more search work.](images/2026-10-22-sha256-eighteen-leading-zeros.png)
+
+### Arjun's explanation
+
+Only clear typing and punctuation errors have been corrected.
+
+> 18 leading 0's is 18 * 4 = 72 zero bits... so average attempts 2 to the power 72.
+> 2⁷² -- is around 10²² attempts.
+>
+> Earlier... was 2³².
+> So, this is more difficult by 2⁷² ÷ 2³² = 2⁽⁷²⁻³²⁾ = 2⁴⁰.
