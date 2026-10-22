@@ -34,3 +34,19 @@ root. A transaction's inclusion can then be checked using a small set of hashes.
   block header being checked. The proof alone does not check signatures, spending
   rules, or whether that header belongs to the accepted chain.
   See [Bitcoin white paper, section 8: Simplified Payment Verification](https://bitcoin.org/bitcoin.pdf#page=5).
+
+## Elliptic curves, keys and signatures
+
+Shared on 22 October 2026.
+
+### Arjun's understanding
+
+Original wording preserved. This section records the learner's current understanding.
+
+> Got introduced to elliptic curves, and I understand it in a graphical way, where the elliptic curves are actually symmetrical on the x-axis. So, like the top half and the bottom half are identical. So any point can be expressed just by the x-axis and also identifying which half of the y-axis the point belongs to. And then I also understood that you can do a certain set of operations, like you can add two points. You cannot add a point and a scalar. You can subtract two points. You cannot subtract a point and a scalar. You can multiply a point with a scalar, or you can divide a point with a scalar, but you cannot actually multiply two points. Then I also saw the generator. I also understood the generator, where you can draw a tangent on the elliptical curve, see where that hits on the second point and invert it, and that becomes 2G. Then you draw another tangent on that and see where that hits it and invert it and becomes 4G. And then, so a private key can be a 256-bit scalar, and a public key can become a multiplier to that scalar. Then there's another section about ECDSA, which is a form of signatures, but from what I understand, there's also another signature, a better form of signature system called Schnorr, which actually is a better algorithm, but it wasn't used initially because it was patented. But the patent expired, and I checked online, and it has been included in Bitcoin in 2021 under the Taproot upgrade.
+
+### Open question — how the calculations work
+
+Arjun has not yet reached this part of the material.
+
+> So from my understanding, the elliptical curves, I really don't need to think about it in a graphical way, and I'm guessing that all the calculations are simple additions, which the computer does, and then reversing it. I've not yet reached that section. We'll probably do that next.

@@ -23,7 +23,7 @@ The saved problem sets remain available for practice.
 ## Notes
 
 - [Bits, bytes, hexadecimal and ASCII](notes/bits-bytes-hex-and-ascii.md) — handwritten notes and SHA-256 questions, 22 October 2026.
-- [Lecture 3 — Merkle Trees and Root](notes/lecture-03.md#merkle-trees-and-root) — understanding and clarification, 22 October 2026.
+- [Lecture 3 — Merkle trees, elliptic curves and signatures](notes/lecture-03.md) — understanding, clarification and open questions, 22 October 2026.
 
 ## Exercises and projects
 
