@@ -50,3 +50,42 @@ Original wording preserved. This section records the learner's current understan
 Arjun has not yet reached this part of the material.
 
 > So from my understanding, the elliptical curves, I really don't need to think about it in a graphical way, and I'm guessing that all the calculations are simple additions, which the computer does, and then reversing it. I've not yet reached that section. We'll probably do that next.
+
+### Assistant feedback
+
+**Your description of point doubling is mostly correct.** The main corrections concern the public key and what “reversing” means.
+
+1. **The generator is a fixed point named `G`.**
+   Your tangent-and-reflection description gives `2G`. Doubling that gives `4G`. The generator is the starting point, rather than the doubling operation. [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04_keys.adoc#public-keys)
+
+2. **The private key is the multiplier. The public key is the resulting point.**
+
+   ```text
+   k = private key: a number
+   G = fixed generator point
+   P = public key: a point
+
+   P = k × G
+
+   If k = 5:
+   P = G + G + G + G + G
+   ```
+
+   Software uses efficient combinations of doubling and addition. A valid private key is between `1` and `n − 1`; not every 256-bit value is valid. [SEC 1 standard](https://www.secg.org/sec1-v2.pdf#page=29)
+
+3. **The smooth graph is useful for learning.**
+   Its upper and lower halves are mirror images. Say **x-coordinate**, rather than x-axis.
+
+   Bitcoin uses a **finite field**: a fixed set of integers with arithmetic that wraps around. Its points form a discrete set, rather than a continuous curve. For ordinary compressed Bitcoin public keys, we store the x-coordinate and whether y is **odd or even**. [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04_keys.adoc#elliptic-curve-cryptography-explained), [BIP 340](https://bips.dev/340/#design)
+
+4. **The calculations involve more than ordinary addition.**
+   Point addition uses formulas containing addition, subtraction, multiplication, and a special form of division. These calculations use remainders after division by a fixed number. This is called **modular arithmetic**. [SEC 1 standard](https://www.secg.org/sec1-v2.pdf#page=12)
+
+   Dividing a point by a known, nonzero scalar can be defined in Bitcoin’s group. But finding the **unknown `k`** from `P = kG` is a different problem. Reflecting a point does not reveal its private key.
+
+5. **Your Taproot update is correct.**
+   Schnorr signatures became available through Taproot in November 2021. They offer benefits such as efficient joint signing. ECDSA still exists alongside them. [Bitcoin Optech](https://bitcoinops.org/en/newsletters/2021/11/17/), [BIP 340](https://bips.dev/340/#motivation)
+
+   The patent explanation needs caution. The Schnorr patent expired in **2008**. That history alone does not establish why Satoshi chose ECDSA. [Cryptographers’ IETF presentation](https://www.ietf.org/proceedings/93/slides/slides-93-cfrg-9.pdf)
+
+Your next useful topic is **modular arithmetic**, followed by point addition using small numbers.
