@@ -22,7 +22,7 @@ The saved problem sets remain available for practice.
 
 ## Notes
 
-- [Bits, bytes, hexadecimal and ASCII](notes/bits-bytes-hex-and-ascii.md) — handwritten notes, 22 October 2026.
+- [Bits, bytes, hexadecimal and ASCII](notes/bits-bytes-hex-and-ascii.md) — handwritten notes and SHA-256 questions, 22 October 2026.
 
 ## Exercises and projects
 
