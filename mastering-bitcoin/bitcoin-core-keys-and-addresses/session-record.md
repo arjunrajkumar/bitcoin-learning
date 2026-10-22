@@ -3,8 +3,8 @@
 [Topic](README.md)
 
 Assistant summary of the learner's commands, output and discussion.
-Recorded on 2026-10-21.
-This is a record of that session, not a check of the node's current state.
+First recorded on 2026-10-21. Later updates are dated below.
+This record is based on shared output. It is not a live check of the node.
 
 ## Bitcoin Core setup
 
@@ -54,6 +54,63 @@ The learner stopped that process with Ctrl-C.
 After `Shutdown: done`, the learner ran `bitcoind -daemon`.
 Later output showed the initial blockchain download in progress.
 No later completion has been recorded.
+
+## Download progress — 22 October 2026
+
+The learner shared a screenshot of `bitcoin-cli getblockchaininfo` at 09:12
+India time. Selected values from that output:
+
+```json
+{
+  "chain": "main",
+  "blocks": 632682,
+  "headers": 972562,
+  "verificationprogress": 0.468052002607328,
+  "initialblockdownload": true,
+  "size_on_disk": 9986304347,
+  "pruned": true,
+  "pruneheight": 625784,
+  "automatic_pruning": true,
+  "prune_target_size": 10485760000,
+  "warnings": ""
+}
+```
+
+Assistant explanation: the node had reached block 632,682.
+Estimated verification progress was about 46.8%.
+This is not a percentage of elapsed time.
+Pruning was enabled, and the output contained no warnings.
+The reported block and undo file size was about 9.99 GB.
+That value does not include the whole Bitcoin data folder.
+
+### Stop and resume — guidance
+
+The learner asked how to stop the node for a while.
+No shutdown result has been shared yet.
+
+Request a clean shutdown:
+
+```sh
+bitcoin-cli stop
+```
+
+The reply `Bitcoin Core stopping` means shutdown has started.
+Wait for the process to exit before restarting it or turning off the computer.
+Check whether it is still running:
+
+```sh
+pgrep -x bitcoind
+```
+
+No output means there is no running process named `bitcoind`.
+To resume later, use the same data folder and settings:
+
+```sh
+bitcoind -daemon
+```
+
+The node resumes from its saved progress.
+The assistant did not run these stop or start commands.
 
 ## API and Python examples
 
