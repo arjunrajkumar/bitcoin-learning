@@ -20,6 +20,10 @@ No lecture completion has been recorded.
 The immediate plan is lectures 1–6, then Mastering Bitcoin.
 The saved problem sets remain available for practice.
 
+## Notes
+
+- [Bits, bytes, hexadecimal and ASCII](notes/bits-bytes-hex-and-ascii.md) — handwritten notes, 22 October 2026.
+
 ## Exercises and projects
 
 | Work | Status |
