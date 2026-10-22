@@ -2,7 +2,7 @@
 
 [Topic](README.md)
 
-Assistant summary of the learner's Chapter 3 experiments and discussion.
+**AI reply:** Summary of the learner's Chapter 3 experiments and discussion.
 Recorded on 2026-10-21.
 
 ## API and Python examples

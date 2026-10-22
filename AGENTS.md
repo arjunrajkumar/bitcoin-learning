@@ -46,7 +46,7 @@ Do not restore the retired Weightless material or its deleted repository.
 - Show the questions together by default. Wait for his answers before giving
   solutions or feedback. Follow a request to work one question at a time.
 - Give short feedback after he answers. Explain mistakes in simple terms.
-  Preserve his answers separately from assistant feedback when saving them.
+  Preserve his answers separately from AI replies when saving them.
 - Check whether a review has already started or finished that day.
   Resume an unfinished review instead of starting another one.
   Keep repository administration separate from the daily review.
@@ -84,7 +84,8 @@ Mark a step complete only when the learner confirms completion.
 - Preserve submitted wording, meaning, code, numbers and technical claims.
   Correct only clear typing errors when editing a submitted answer.
   Put factual corrections in a separate explanation.
-- Label assistant summaries and explanations. Do not present them as learner work.
+- Use the heading **AI reply** for AI summaries, explanations and feedback.
+  Do not present them as learner work.
 - Preserve earlier submissions and results.
 - Keep the older reviews and unused templates in
   `mastering-bitcoin/earlier-reviews/` as historical records.

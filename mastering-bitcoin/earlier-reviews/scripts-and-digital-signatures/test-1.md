@@ -114,7 +114,7 @@ Keep these results separate from the repeated-question score. -->
 
 <!-- Record any unresolved questions to discuss with Bitshala. -->
 
-## Assistant feedback
+## AI reply
 
 **Result:** Not reviewed
 

@@ -168,7 +168,7 @@ Keep these results separate from the repeated-question score. -->
 
 <!-- Record any unresolved questions to discuss with Bitshala. -->
 
-## Assistant feedback
+## AI reply
 
 **Result:** 2/8 correct; 6 partial; 0 incorrect; 0 unanswered
 

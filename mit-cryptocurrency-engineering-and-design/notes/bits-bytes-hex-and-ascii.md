@@ -42,7 +42,7 @@ Only clear typing, capitalization and punctuation errors have been corrected.
 >
 > Is this right?
 
-### Assistant explanation
+### AI reply
 
 Yes. Eight hexadecimal digits represent 32 bits, which is 4 bytes.
 The final hash is displayed in hexadecimal by `sha256sum`.

@@ -13,7 +13,7 @@ Original wording preserved.
 > Merkle Trees and Root.
 > The problem that Merkle Trees are trying to solve is: without Merkle Trees, how do you commit that 1,000 transactions actually belong to a block? You could just concatenate all the transaction hashes together, but that could grow to be quite big. So one solution is to use hash trees, or Merkle trees. And what Merkle Trees does is it just takes a hash of the transaction, which is already there, and then it hashes it with its sibling, the one right next to it. You keep hashing the pairs until you go up and you get to the final root. And that root is always going to be of a specific hash, 256 size. So the size is always constant, irrespective of the number of transactions in that block. The Merkle Tree root is always going to be constant. And for verifying a transaction, you don't need to actually have all the other transactions. You only need to have log of n, where you need to provide the right pair so that the verifier can calculate the hash. Then you need to provide the parent hash pair and go on and on. So it's much less size required for verifying, and constant size for the root
 
-### Assistant clarification
+### AI reply
 
 The main understanding is correct: hash neighbouring pairs repeatedly to get one
 root. A transaction's inclusion can then be checked using a small set of hashes.
@@ -51,7 +51,7 @@ Arjun has not yet reached this part of the material.
 
 > So from my understanding, the elliptical curves, I really don't need to think about it in a graphical way, and I'm guessing that all the calculations are simple additions, which the computer does, and then reversing it. I've not yet reached that section. We'll probably do that next.
 
-### Assistant feedback
+### AI reply
 
 **Your description of point doubling is mostly correct.** The main corrections concern the public key and what “reversing” means.
 
