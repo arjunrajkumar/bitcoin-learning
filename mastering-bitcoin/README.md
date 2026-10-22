@@ -7,13 +7,13 @@ Notes, exercises, code and earlier work belong here.
 ## Current position
 
 Chapter 4 is paused while the learner starts MIT lectures 1–6.
-Bitcoin Core setup and Chapter 3 experiments are recorded below.
+Chapter 3 experiments and discussion are recorded below.
 Completion of a topic is not implied by the presence of notes.
 
 ## Saved work
 
 - [Bitcoin Core, keys and addresses](bitcoin-core-keys-and-addresses/README.md)
-- [Setup and session record](bitcoin-core-keys-and-addresses/session-record.md)
+- [Experiments and discussion](bitcoin-core-keys-and-addresses/experiment-notes.md)
 - [Python examples](bitcoin-core-keys-and-addresses/experiments/)
 - [Earlier questions, answers and reviews](earlier-reviews/README.md)
 

@@ -96,6 +96,11 @@ Mark a step complete only when the learner confirms completion.
   Link to relevant reading or primary documentation when it supports an explanation.
 - Keep source attribution for imported examples.
   Record setup fixes separately from learner solutions.
+- Keep personal Bitcoin node build details, settings, sync progress, logs and
+  start/stop instructions out of the repository.
+  Use shared node status only to help in chat.
+  A node status message such as "update" is not a request to save it.
+  Keep conceptual learning notes and programming exercises in the repository.
 
 ## Saving and publishing
 

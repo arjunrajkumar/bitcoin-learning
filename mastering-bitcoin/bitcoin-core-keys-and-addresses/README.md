@@ -9,7 +9,7 @@
 
 ## Notes and experiments
 
-- [Setup and session record](session-record.md)
+- [Experiments and discussion](experiment-notes.md)
 - [Get the local block height](experiments/rpc_example.py)
 - [Decode the book's transaction and print its outputs](experiments/rpc_transaction.py)
 - [Add the transaction output values in a block](experiments/rpc_block.py)
