@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="863" height="190" viewBox="0 0 863 190" role="img" aria-labelledby="title description">
 <title id="title">Exploring Bitcoin — learning time</title>
-<desc id="description">Daily learning calendar from 1 Oct 2026 to 30 Sep 2027. Tracking began 6 Oct 2026. Entries are current through 21 Oct 2026. Future days have empty squares. Outlined squares have no entry. Filled grey means a reported zero. Green levels are under 1 hour, 1 to under 2 hours, 2 to under 4 hours, and 4 hours or more.</desc>
+<desc id="description">Daily learning calendar from 1 Oct 2026 to 30 Sep 2027. Tracking began 6 Oct 2026. Entries are current through 22 Oct 2026. Future days have empty squares. Outlined squares have no entry. Filled grey means a reported zero. Green levels are under 1 hour, 1 to under 2 hours, 2 to under 4 hours, and 4 hours or more.</desc>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;font-size:11px;fill:#9198a1}</style>
 <rect x="0.5" y="0.5" width="862" height="189" rx="10" fill="#0d1117" stroke="#30363d"/>
 <text x="46" y="26">Oct 2026</text>
@@ -39,7 +39,7 @@
 <rect data-date="2026-10-19" x="91" y="55" width="12" height="12" rx="2" fill="#0d1117" stroke="#30363d" stroke-width="0.6"><title>19 Oct 2026: Not reported</title></rect>
 <rect data-date="2026-10-20" x="91" y="70" width="12" height="12" rx="2" fill="#39d353" stroke="none" stroke-width="0.6"><title>20 Oct 2026: 6 hrs 5 min</title></rect>
 <rect data-date="2026-10-21" x="91" y="85" width="12" height="12" rx="2" fill="#39d353" stroke="none" stroke-width="0.6"><title>21 Oct 2026: 7 hrs 22 min</title></rect>
-<rect data-date="2026-10-22" x="91" y="100" width="12" height="12" rx="2" fill="#0d1117" stroke="#30363d" stroke-width="0.6"><title>22 Oct 2026: Future day</title></rect>
+<rect data-date="2026-10-22" x="91" y="100" width="12" height="12" rx="2" fill="#39d353" stroke="none" stroke-width="0.6"><title>22 Oct 2026: 6 hrs 41 min</title></rect>
 <rect data-date="2026-10-23" x="91" y="115" width="12" height="12" rx="2" fill="#0d1117" stroke="#30363d" stroke-width="0.6"><title>23 Oct 2026: Future day</title></rect>
 <rect data-date="2026-10-24" x="91" y="130" width="12" height="12" rx="2" fill="#0d1117" stroke="#30363d" stroke-width="0.6"><title>24 Oct 2026: Future day</title></rect>
 <rect data-date="2026-10-25" x="106" y="40" width="12" height="12" rx="2" fill="#0d1117" stroke="#30363d" stroke-width="0.6"><title>25 Oct 2026: Future day</title></rect>
