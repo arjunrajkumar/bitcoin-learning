@@ -26,6 +26,10 @@ The saved problem sets remain available for practice.
 - [Lecture 3 — Merkle trees, elliptic curves and signatures](notes/lecture-03.md) — understanding, clarification and open questions, 22 October 2026.
 - [Bank accounts and Bitcoin spending conditions](notes/transactions-and-spending-conditions.md) — personal understanding and AI reply, 22 October 2026.
 
+## Daily reviews
+
+- [23 October 2026](reviews/2026-10-23.md) — completed; questions, Arjun's answers and AI feedback on double spending, change, hexadecimal digits, Merkle proofs and keys.
+
 ## Exercises and projects
 
 | Work | Status |
