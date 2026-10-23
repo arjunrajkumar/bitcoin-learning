@@ -10,14 +10,15 @@ The lecturers are Neha Narula and Tadge Dryja.
 - [x] Lecture 1
 - [x] Lecture 2
 - [x] Lecture 3
-- [ ] Lecture 4
-- [ ] Lecture 5
-- [ ] Lecture 6
+- [x] Lecture 4
+- [x] Lecture 5
+- [x] Lecture 6
 
 [Lecture videos](https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/video_galleries/lecture-videos/) · [Reading and lecture order](https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/pages/calendar/)
 
 Arjun confirmed completion of lectures 1, 2 and 3 on 22 October 2026.
-The immediate plan is lectures 1–6, then Mastering Bitcoin.
+Arjun confirmed completion of lectures 4–6 on 23 October 2026.
+The next step is Mastering Bitcoin.
 The saved problem sets remain available for practice.
 
 ## Notes
