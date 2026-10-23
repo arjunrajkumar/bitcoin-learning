@@ -35,7 +35,7 @@ The saved problem sets remain available for practice.
 
 | Work | Status |
 | --- | --- |
-| [Problem set 1 — Hash-based signature schemes](pset01/README.md) | Not started |
+| [Problem set 1 — Hash-based signature schemes](pset01/README.md) | Implementation complete; all five original tests passed on 23 October 2026 |
 | [Problem set 2 — Mine your name](pset02/README.md) | Not started |
 | [Problem set 3 — UTXOhunt](pset03/README.md) | Not started |
 | [Final project](final-project/README.md) | Not started; topic not selected |
@@ -46,11 +46,15 @@ Keep code, explanations and command output in the relevant problem-set folder.
 ## Setup record
 
 On 2026-10-21, the shared terminal image showed that Homebrew installed Go 1.27.3.
-The learner has not yet shared the result of `go version` after installation.
-No MIT code attempts or test results have been submitted.
+On 2026-10-23, Arjun shared `go version go1.27.3 darwin/arm64`.
+He implemented the three signature functions in problem set 1 with guidance.
+He supplied passing results for all four signature tests.
+The [problem set 1 record](pset01/README.md) separates learner work from the
+code completed by Codex at his request.
 
-The original Go starter files have not been built or tested here.
-Their source revision is recorded in [SOURCE.md](SOURCE.md).
+The starter code's source revision is recorded in [SOURCE.md](SOURCE.md).
+Problem set 1 setup fixes are recorded in [SETUP.md](pset01/SETUP.md).
+The problem set 2 and 3 starter files have not been built or tested here.
 The 2018 instructions need checks before use with current software.
 Problem set 2 refers to an old class server.
 Problem set 3 uses old Go library paths and Bitcoin test-network instructions.

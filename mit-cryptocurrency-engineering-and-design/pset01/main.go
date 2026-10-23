@@ -21,6 +21,7 @@ package main
 
 import (
 	"bytes"
+	"crypto/rand"
 	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
@@ -110,7 +111,7 @@ func HexToPubkey(s string) (PublicKey, error) {
 	// first, make sure hex string is of correct length
 	if len(s) != expectedLength {
 		return p, fmt.Errorf(
-			"Pubkey string %d characters, expect %d", expectedLength)
+			"Pubkey string %d characters, expect %d", len(s), expectedLength)
 	}
 
 	// decode from hex to a byte slice
@@ -162,7 +163,7 @@ func BlockFromByteSlice(by []byte) Block {
 	return bl
 }
 
-// A signature consists of 32 blocks.  It's a selective reveal of the private
+// A signature consists of 256 blocks.  It's a selective reveal of the private
 // key, according to the bits of the message.
 type Signature struct {
 	Preimage [256]Block
@@ -188,7 +189,7 @@ func HexToSignature(s string) (Signature, error) {
 	// first, make sure hex string is of correct length
 	if len(s) != expectedLength {
 		return sig, fmt.Errorf(
-			"Pubkey string %d characters, expect %d", expectedLength)
+			"Pubkey string %d characters, expect %d", len(s), expectedLength)
 	}
 
 	// decode from hex to a byte slice
@@ -220,8 +221,13 @@ func GenerateKey() (SecretKey, PublicKey, error) {
 	var sec SecretKey
 	var pub PublicKey
 
-	// Your code here
-	// ===
+	for i := range sec.ZeroPre {
+		rand.Read(sec.ZeroPre[i][:])
+		rand.Read(sec.OnePre[i][:])
+
+		pub.ZeroHash[i] = sec.ZeroPre[i].Hash()
+		pub.OneHash[i] = sec.OnePre[i].Hash()
+	}
 
 	// ===
 	return sec, pub, nil
@@ -231,8 +237,17 @@ func GenerateKey() (SecretKey, PublicKey, error) {
 func Sign(msg Message, sec SecretKey) Signature {
 	var sig Signature
 
-	// Your code here
-	// ===
+	for i := range sig.Preimage {
+		messageByte := msg[i/8]
+		bitPosition := i % 8
+
+		bit := (messageByte >> (7 - bitPosition)) & 1
+		if bit == 0 {
+			sig.Preimage[i] = sec.ZeroPre[i]
+		} else {
+			sig.Preimage[i] = sec.OnePre[i]
+		}
+	}
 
 	// ===
 	return sig
@@ -242,10 +257,22 @@ func Sign(msg Message, sec SecretKey) Signature {
 // describing the validity of the signature.
 func Verify(msg Message, pub PublicKey, sig Signature) bool {
 
-	// Your code here
-	// ===
+	for i := range sig.Preimage {
+		messageByte := msg[i/8]
+		bitPosition := i % 8
 
-	// ===
+		bit := (messageByte >> (7 - bitPosition)) & 1
+		signatureHash := sig.Preimage[i].Hash()
+		if bit == 0 {
+			if signatureHash != pub.ZeroHash[i] {
+				return false
+			}
+		} else {
+			if signatureHash != pub.OneHash[i] {
+				return false
+			}
+		}
+	}
 
 	return true
 }
