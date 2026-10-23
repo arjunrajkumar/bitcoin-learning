@@ -11,6 +11,10 @@ Corrections appear separately under **AI reply**.
 
 > Transactions inputs and outputs. The transaction input has a transaction ID and the signature. The transaction ID will have the transaction hash, which is 32 bits, and will also have the output, the index of the output of the previous output. So that is a 4-bit. So in total it's 36 bits. The transaction ID part is 36 bits. Of this 4-bit, that means you can have options of 4 bits, which are around 4 billion options, which is actually an overkill because normally in Bitcoin transaction the output is maybe 100 outputs max. I mean, you could go more, but usually on the max side usually it's even lesser. So having 4 billion is an overkill. And then you also have the signature of your... which is required to match to spend that input, and that's around 100 bits. And the key thing to note is that the inputs are not stored on the blockchain. So the transaction ID, the inputs... sorry, the inputs are stored in the blockchain. Inputs are not stored in the blockchain. It's only the funds and the output condition to spend the fund. That's it. The inputs are evaluated by a wallet when you actually want to spend that fund. So let's look at actually what's stored in the blockchain, the output. The output has a script, which is around 25 bits, and an amount, which is 8 bits.
 
+### Clarification after discussion
+
+> the signature is stored, but the result of checking it is calculated by each node.
+
 ## AI reply
 
 ### Field sizes and names
@@ -68,6 +72,11 @@ An output does not contain its future spending input.
 That input is created in a later transaction.
 The wallet builds and signs the spending transaction.
 Full nodes also check its inputs and spending conditions.
+
+The signature checked by a node is stored in the confirmed spending transaction.
+Each node calculates the result of the check itself.
+The blockchain does not store a separate “signature valid” field.
+See the [Bitcoin guide: signature checks](https://developer.bitcoin.org/devguide/transactions.html#p2pkh-script-validation).
 
 The **UTXO set** is the current collection of unspent transaction outputs.
 It is separate from the full transaction history.
