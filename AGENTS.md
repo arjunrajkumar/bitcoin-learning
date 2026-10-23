@@ -13,8 +13,8 @@ Follow the order in README.md:
 3. Bitshala Programming Bitcoin.
 4. Bitshala Bitcoin Protocol Development.
 
-Keep README.md limited to its heading, four checklist links, total time
-and green calendar. Do not add a daily log table or a weekly total.
+Keep README.md limited to its heading and four checklist links.
+Do not add time totals, calendars, daily log tables or weekly totals.
 Put details in the matching folder.
 Use the resource names, or refer to lectures, reading, exercises and projects.
 Do not restore the retired Weightless material or its deleted repository.
@@ -107,25 +107,10 @@ Mark a step complete only when the learner confirms completion.
 
 ### Learning time
 
-- Save confirmed daily minutes in `data/learning-time.json`.
-  Dates use India time (`Asia/Kolkata`).
-- Read dates from the supplied evidence, including the year.
-  Follow Arjun's corrections. He confirmed that the October 6–8 entries
-  belong to 2026. The calendar starts in October 2026.
-- A missing date means no entry. Record zero only when the learner reports zero.
-  Never infer study time from commits, chat length or a running node.
-- Update one entry per date. Replace a corrected daily total instead of adding
-  it twice. Do not add an unfinished day's time unless the learner asks.
-- Set `as_of` to the current date in India when updating the calendar.
-- Run `python3 scripts/render_learning_time.py` from the repository root.
-  This updates the total and both calendar images without changing the checklist.
-- Start the calendar at the first day of the earliest recorded month.
-  Show the full first year: October 2026 through September 2027.
-  Leave future days as empty squares. Do not record them as zero minutes.
-  Include year labels so entries from different years remain distinct.
-- Use the label `Total time: H hrs M min` above the calendar.
-  Keep extra space between the checklist and this label.
-- Commit and push the data, generated images and README together.
+- Arjun tracks learning time in HEY.
+- Do not maintain learning-time totals or a calendar in this repository.
+- Preserve existing time records as history. Do not update them or run
+  `scripts/render_learning_time.py` unless Arjun asks to restore this feature.
 
 ### Repository files
 
