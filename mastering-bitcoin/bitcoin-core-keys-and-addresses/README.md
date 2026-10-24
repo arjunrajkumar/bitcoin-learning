@@ -9,6 +9,7 @@
 
 ## Notes and experiments
 
+- [Chapter 4 learner notes and separate AI replies](chapter-4-notes.md)
 - [Experiments and discussion](experiment-notes.md)
 - [Get the local block height](experiments/rpc_example.py)
 - [Decode the book's transaction and print its outputs](experiments/rpc_transaction.py)
@@ -16,4 +17,5 @@
 
 The first two Python examples have shared command output.
 No output from `rpc_block.py` has been recorded.
-Chapter 4 is paused.
+Chapter 4 resumed on 24 October 2026. The learner's note and separate
+corrections are saved above.
